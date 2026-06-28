@@ -1,0 +1,15 @@
+1 CHOCO ALMOND
+18.182
+Subtotal
+10.182
+15DISC
+2.727
+Subtotal
+15.455
+PAJAK10%
+1.546
+1 Total
+17.001
+++Rounding
+FLAZZ
+17.000

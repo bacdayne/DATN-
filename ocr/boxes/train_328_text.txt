@@ -1,0 +1,26 @@
+XXI
+cafe
+1
+Coke (L)
+25.000
+Fanta Strwbry (L)
+25.000
+1
+XXI Java Tea Spc
+25.000
+Extra Je1ly Lychee
+5.000
+Caramel Medium
+50.000
+1
+Butter Milk Popcorn
+38.000
+Tahu Ikan Oma Giok
+3
+60.000
+228.000
+TOTAL
+CASH
+228.000
+CHANGED
+0

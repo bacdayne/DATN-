@@ -1,0 +1,12 @@
+XXI
+cafe
+25.000
+Lemon Tea L.
+20.000
+Popcorn Salt (S)
+45.000
+TOTAL
+50.000
+CASH
+5.000
+CHANGED

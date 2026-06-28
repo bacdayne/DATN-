@@ -1,0 +1,27 @@
+LP5201
+LA
+BL1M
+70,000
+70,000
+Drfer disc 45 %
+-31,500
+LP5978
+WH3M
+LW
+70,000
+70,000
+Qffer disc 45 %
+31,500
+LP5978
+RE5M
+LW
+1
+000'04
+70,000
+Offer disc 45%
+31,500
+Total Discount
+94,500
+Grand Tatal.
+115,500
+115,500

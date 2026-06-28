@@ -1,0 +1,13 @@
+41.000
+BBQChicken
+0
+8.000
+Mineral Water 600 ml
+7,000
+Teh Pucuk350 ml
+56.000
+ITEMS:3
+fatal.
+56,000
+ay Cash 50,000
+Change:4,000

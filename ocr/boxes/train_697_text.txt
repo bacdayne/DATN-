@@ -1,0 +1,11 @@
+IXX
+cafe
+Hot Dog w Cheese
+44.000
+44.000
+TOTAL
+44.000
+CASH
+CHANGED
+0
+ald:

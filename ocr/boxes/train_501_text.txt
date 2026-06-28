@@ -1,0 +1,16 @@
+CHICKEN PICATTA
+1
+46,363
+46,363
+JAVA TEA
+1.
+11,363
+11,363
+Jumlah Item
+..
+Sub Total
+57,726
+Pejak Resto
+5,772
+Grand Totel
+63,498

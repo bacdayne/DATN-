@@ -1,0 +1,30 @@
+1 Mocha
+47,273
+1Cappucino
+36,364
+1 Ice Tea
+0
+1 Ice Tea Lemon
+29,091
+1 Lemon Juice
+36,364
+1 Croque Mme.
+0
+1Mme Beef
+87,273
+1 Caesar Salad
+72,727
+1 Canele (Mini)
+31,818
+Subtotal
+340,909
+PB1
+34,091
+Total
+375,000
+375,000
+Go Pay
+Total Item
+7
+Total Qty
+7

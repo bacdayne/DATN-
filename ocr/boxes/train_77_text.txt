@@ -1,0 +1,26 @@
+1
+KP BRANDING L
+-1
+Disc.
+17,100
+117,100
+M/POKO STD XXL5
+2.11,200
+22,400
+HANSPLSI FOOI 6
+326,200
+78,600
+CIPAIN PATCH 4S
+118,101
+4
+Total Iter
+1
+Total Disc.
+118100
+Total Belanja
+120,000
+Tuniai
+Kenbalian
+1,900
+10,736
+PPN

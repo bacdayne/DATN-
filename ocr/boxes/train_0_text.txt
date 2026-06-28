@@ -1,0 +1,74 @@
+75,000
+Nasi Campur Bali
+1x
+125,000
+Bbk Bengil Nasi
+1
+37,000
+MilkShake Starwb
+i
+24,000
+Ice Lemon Tea
+X
+70000
+Nasi Ayam Dewata
+0
+Free Ice Tea
+3%
+65000
+Organic Green Sa
+1x
+18,000
+IceTea
+1x
+29,000
+Ice Orange
+1x
+85,000
+Ayam Suir Bali
+36,000
+Tanu Goreng
+2x
+36,000
+Tempe Goreng
+2
+X
+40000
+Tahu Telor Asin
+70,000
+Nasi Goreng Samb
+1x
+366,000
+Bbk Panggang Sam
+3x
+92.000
+Ayam Sanbal Hija
+1x
+44000
+Hot Tea
+32,000
+Ice Kopi
+X
+40,000
+Tahu Telor Asin
+1
+X
+0
+Free Ice Tea
+1
+X
+44.000
+Bebek Street
+1
+18.000
+Ice Tea Tawar
+1
+1,346,000
+Sub-Total
+100,950
+Service
+144.695
+PB1
+-45
+Rounding
+Grand Tota11591600

@@ -1,0 +1,17 @@
+XXI
+cale
+25.000
+Sprite (L).
+1
+25.000
+Lemon Tea (L
+1
+10.000
+Extra Jel1y Lychee
+2
+60.000
+TOTAL
+100.000
+CASH
+40.000
+CHANGED

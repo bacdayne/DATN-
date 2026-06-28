@@ -1,0 +1,9 @@
+laollao
+39,200.0
+39,200.0
+1 medium tub
+Subtotal:Rp35,636.36
+Tax10.00%Rp3563.64
+39,200.00
+TOTALI
+PaidRp39200.00

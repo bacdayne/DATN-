@@ -1,0 +1,30 @@
+LC
+1.Fruit Complanent
+Udang Mentega Sdg (M
+162.000
+2 Chinese Tearrasmine
+000.03
+S Buruan Grrdn
+230.000
+5 Nasi Putih
+45,000
+ITEMS.TOTAL
+457.000
+LUCKYBCA-20%
+78,400)
+SUBTOTAL
+378,600
+27,420
+Service
+48.442
+Tax
+20.000
+Subtotal Beverage
+45.000
+Subtotal Iessertry
+313,600
+Subtotal-Food
+454-462
+TOTAL
+454.462
+BCA CARD

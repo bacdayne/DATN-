@@ -1,0 +1,18 @@
+1 Benedict Burrito
+85,000
+40.000
+1 Lychee Ice Tea
+45.000
+1 Soup Of The [ay
+45,000
+1 Strawberry jc
+215,000
+SUBTOTAL
+21,500
+SERVICE
+23,650
+TAX
+260.150
+TOTAL
+Total Qty 4
+Total item 4

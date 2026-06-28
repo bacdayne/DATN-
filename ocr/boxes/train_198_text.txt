@@ -1,0 +1,12 @@
+1 TARO
+18,182
+Subtotal
+18.182
+PAJAK 10%
+1.818
+1 Total
+20.000
+50.000
+Tendered
+30.000
+Kembali

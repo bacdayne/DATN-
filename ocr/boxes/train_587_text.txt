@@ -1,0 +1,15 @@
+1017-Roti Pisang Keju
+x1
+9.000,00
+9.000.00
+1025-Roti Sosis Sapi
+x1
+11.000,00
+11.000,00
+2
+Total Item:
+20.000,00
+Total.
+Cash
+20.000,00
+Tendered:

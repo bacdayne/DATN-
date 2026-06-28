@@ -1,0 +1,14 @@
+Nutella Cheese
+27,272
+Toblerone BanCheese
+28,182
+SubTotal:
+55,454
+PRi:
+5,545
+3
+Total:
+50,999
+Debit Card:
+60999
+Direp

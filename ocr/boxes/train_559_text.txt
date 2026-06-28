@@ -1,0 +1,11 @@
+Dcrepes
+22,727
+Salted Egg Chicken
+SubTotal:
+22,727
+PB1:
+2,273
+Total:
+25,000
+cash:
+25,000

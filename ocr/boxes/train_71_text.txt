@@ -1,0 +1,15 @@
+H
+GR
+(L)
+16,363
+16,363
+TO
+Jumlah I
+COPRINT
+16,343
+Sub Total
+1,636
+Pajak Resto
+17,999
+Grand Total
+JOURNE

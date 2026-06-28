@@ -1,0 +1,12 @@
+Kroket
+12.000
+1-
+12.000
+Subtotal
+Rp 12.000
+Tax 10.0%
+Rp1.200
+Total
+Rp13.200
+Other
+Rp 13.200

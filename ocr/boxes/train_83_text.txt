@@ -1,0 +1,13 @@
+GORDI
+43.000
+1 ICED White
+58.000
+1 Mexican Baked Rice
+101.000
+Subtotal
+101.000
+Total
+101.000
+DEBIT
+0
+Change

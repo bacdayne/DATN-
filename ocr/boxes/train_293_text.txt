@@ -1,0 +1,33 @@
+Nasi Liwet
+49.000
+Nasi Uduk Ayam
+47.000
+1
+Ayam Garang Asem
+46.000
+1
+Ayam.Kremes
+47.000
+Nila Penyet + Nasi
+45.000
+Nasi Goreng Gila
+52.000
+Nasi Goreng Rawon
+1
+43.000
+Mendoan
+31.000
+Teh Tawar Dingin
+3
+33.000
+Teh Tawar Panas
+1
+11.000
+Subtotal
+404.000
+Servi Charge 5
+20.200
+Pajak Rest 10
+42.420
+12 Total
+466.620

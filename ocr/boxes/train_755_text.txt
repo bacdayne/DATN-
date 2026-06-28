@@ -1,0 +1,12 @@
+42,000
+Seaweed Chicken
+1
+0
+-Pedas
+1
+42,000
+ITEMS:1
+42,000
+Total.
+Pay Cash 50.000
+Change:8,000

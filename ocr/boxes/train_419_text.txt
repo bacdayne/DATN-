@@ -1,0 +1,32 @@
+Belly Cheese Fries
+Pork
+65,000
+1
+65.000
+Reflection Sparkling
+20,000
+1
+20,000
+Hot Black Cofee
+30,000
+1
+30,000
+ala Bali
+Nasi Campur a
+150,000
+2
+75,000
+Oriental
+55,000
+1
+55,000
+320,000
+SUBTOTAL
+16,000
+SERVICE
+33,600
+Pb1
+0
+369.600
+VOUCHER
+GRAND TOTAL

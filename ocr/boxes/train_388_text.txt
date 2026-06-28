@@ -1,0 +1,46 @@
+escargot tlorentine
+1000
+32.000
+1-32,000
+Zurich Geschnitzel
+0045
+82.000
+82,000
+1-
+Valdostana
+0050
+177.000
+59.000
+3
+Chicken Herb Crust
+0056
+52.000
+52,000
+1-
+Lasagna Di Came
+0079
+54.000
+1-54.000
+Lemon Jc
+0134
+25.000
+1-25,000
+Apple Pic
+25.000
+1-25.000
+hottea
+12.000
+112,000
+hot lemon tea
+22.000
+22,000
+481,000
+Sub Total
+24.050
+Services
+48,100
+TEL
+Scanned with
+CS
+553,200
+CamScanner

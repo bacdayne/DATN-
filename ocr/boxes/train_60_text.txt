@@ -1,0 +1,16 @@
+15.000
+Mineral Water (S)
+20.000
+Pocky Chocolate
+42.000
+Nerds Strw Grape
+42.000
+Nerds Trop Punch
+42.000
+Nerds Watermelon
+161.000
+TOTAL
+161.000
+CASH
+0
+CHANGED

@@ -1,0 +1,20 @@
+the
+19.000
+Kopi Susu Kampung
+x1
+Ice
+0
+Kopi Susu Kampung
+Less Ice
+38.000
+Kopi Susu Kampung.
+x2
+Ice
+Subtotal
+57.000
+Total
+57.000
+Cash
+60.000
+Change
+3.000

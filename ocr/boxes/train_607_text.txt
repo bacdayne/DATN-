@@ -1,0 +1,21 @@
+Pepper Steak
+1
+122,727
+-Milo
+14
+0
+-Cheese
+1
+5,454
+ITEMS:2
+128,181
+Tex 10.00%
+12,818
+Total
+140,999
+100 BOGA VOUCHER
+100,000
+Cash
+50,000
+Change
+9,001

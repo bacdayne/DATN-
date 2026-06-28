@@ -1,0 +1,13 @@
+TAKEOUT1):
+1 Viet Latte
+19.000
++S
++Ice
+Subtotal
+Rp 19.000
+Total
+Rp 19.000
+CASH
+Rp50.000
+Kembalian
+Rp 31.000

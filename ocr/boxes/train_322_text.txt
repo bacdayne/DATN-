@@ -1,0 +1,24 @@
+3180-Soes Marmer
+7.500.00
+0000520
+EX
+1006-Roti Molen
+10'00090
+R2
+000008
+1245-Plastik Tentengan Kecil
+x1
+00'0
+00'0
+1244-Plastik Tentengan Sedang
+x1
+0,00
+000
+Total Iten:
+38.500,00
+Total.
+Cash
+40.500,00
+Tendered:
+2.000,00
+Change:

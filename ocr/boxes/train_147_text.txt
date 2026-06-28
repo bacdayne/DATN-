@@ -1,0 +1,16 @@
+1 CHOCO ALMOND
+18.182
+Gula Murni 100z
+Subtotal
+18,182
+-150150
+2.727
+Subtotal
+15,455
+PAJAK 10Z
+1.546
+1 Total
+17.001
+++Rounding
+FLAZZ
+17.000

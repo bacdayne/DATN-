@@ -1,0 +1,13 @@
+BAKE
+*1PC
+Cheese Tart
+Rp29000.00
+**
+Subtotal:
+29000.00
+Rp29000.00
+Total:
+Customer Paid Cash:
+Rp100000.00
+Customer Change:
+Rp71000.00

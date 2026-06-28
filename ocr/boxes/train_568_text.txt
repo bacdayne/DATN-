@@ -1,0 +1,15 @@
+22.000
+24.000
+2Large1
+0
+PoL01
+2
+*PlastiK Kcl
+1
+46.000
+5 Total
+50.000
+Bayar
+4.000
+Kembali
+**

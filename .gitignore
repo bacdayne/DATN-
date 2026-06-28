@@ -1,0 +1,31 @@
+# Python virtual environment (17GB - never commit)
+ai310_env/
+venv/
+.venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Large model weights / merged model (regenerable via merge_adapter.py)
+finetuning/qwen2-cord-merged/
+finetuning/checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+# but keep the small LoRA adapter
+!finetuning/qwen2-cord-lora/adapter_model.safetensors
+
+# Large datasets / generated images
+cord_v2/
+ocr/debug/
+ocr/images/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,25 @@
+shier:.a
+6,000
+A1.Sate Babi Mans
+2000
+A2.ate Bab Bumbu all
+8.000
+24.000
+A2.Lapciong
+4.000
+14.000
+4.000
+A2.Sate Babl Cabe o
+14.000
+3.000
+A1.Paru Babl
+13.000
+4.000
+A2.Ngoniong
+14.000
+5.000
+A4.Es Teh Manis
+15.000
+34.000
+Tolal
+34.000

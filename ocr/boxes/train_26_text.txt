@@ -1,0 +1,16 @@
+Pepenero Pastel
+1x
+15.000
+15.000
+Subtotal
+Rp15.000
+Tax 10.0%
+Rp1.500
+Total
+Rp 16.500
+Cash
+Rp 50.500
+Change
+Rp34.000
+3
+O

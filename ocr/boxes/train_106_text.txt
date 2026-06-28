@@ -1,0 +1,14 @@
+Toblerone BanCheese
+28182
+Roast Beet Crepes
+15455
+SubTotal:
+43637
+PRLE
+4,364
+Total;
+49,001
+cash:
+10000
+Change:
+66619

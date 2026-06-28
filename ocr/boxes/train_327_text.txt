@@ -1,0 +1,10 @@
+36,000
+1MIEUPBSRC
+INC(+)
+3,600
+39,600
+Total
+Payment
+0
+Payment#Less
+39,600

@@ -1,0 +1,11 @@
+11
+Air Mineral
+1.
+5.000
+5.000
+Subtotal
+5.000
+Pajak
+Total
+5.000
+GO-PAY

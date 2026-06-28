@@ -1,0 +1,22 @@
+BANK BRI
+EXP010DI
+Roasted Milk Tea
+21.000
++70%
++R
+Less
+R
+Big Bubble
+4.000
+btotal
+BANK BRI
+25.000
+ial
+2.500
+al
+27.500
+CASH
+50.000
+Kembalian
+22.500
+EXP020/D

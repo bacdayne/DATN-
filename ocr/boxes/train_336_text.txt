@@ -1,0 +1,11 @@
+IAK
+10.000
+Mineral Water (S)
+25.000
+Lemon Tea (L
+35.000
+TOTAL
+50.000
+CASH
+15.000
+CHANGED

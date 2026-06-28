@@ -1,0 +1,13 @@
+E12
+41,000
+BBQChicken
+1
+0
+1
+-Tidak Pedas
+41,000
+ITEMS:1
+41,000
+Total.
+Pay Cash41,000
+Change:0

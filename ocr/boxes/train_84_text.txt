@@ -1,0 +1,15 @@
+11.000
+1Large 1
+0
+1
+*Rhum
+20.000
+1Pastry Keju
+0
+1*Plastik Kcl
+31.000
+4 Total
+40.000
+Bayar
+9.000
+Kembali

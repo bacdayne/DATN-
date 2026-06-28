@@ -1,0 +1,18 @@
+SHRSER
+4005-Maple glazed
+25.000
+25.000
+6001-Plastic Bag Small
+0x1
+5003-Chokoreto Cookies
+62.000
+x1
+62.000
+Total Item
+Total.
+87.000
+Cash
+Tendered:
+100.000
+Change:
+13.000

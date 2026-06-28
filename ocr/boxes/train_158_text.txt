@@ -1,0 +1,15 @@
+KFC DAY
+34,545
+CHARGE TA
+606
+Sub Tota.1
+35,454
+P.Rest 10
+3,546
+39,000
+Tota.1
+cash
+100,000
+k.emcali
+61,000
+2Items,

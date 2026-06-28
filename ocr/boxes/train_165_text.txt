@@ -1,0 +1,13 @@
+1 A Chicken
+21.000
++Monster
++A+Cheese
+Subtotal
+21.000
+Total
+21.000
+CASH
+21.000
+Kembalian
+0
+CS

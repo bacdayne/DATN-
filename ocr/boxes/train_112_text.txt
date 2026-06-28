@@ -1,0 +1,15 @@
+#bi
+Fish Ball
+10,000
+Fried Siomay
+10,000
+Subtotal
+20,000
+Discount
+(0)
+TOTAL
+20,000
+Tunai
+20,000
+Kembalian
+0

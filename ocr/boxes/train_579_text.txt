@@ -1,0 +1,10 @@
+XXI
+sale
+20.000
+Popcorn Salt S
+20.000
+TOTAL
+50.000
+CASH
+30.000
+CHANGED

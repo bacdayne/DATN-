@@ -1,0 +1,14 @@
+.HIE
+18.000
+1 Viet Milk Coffee
++Ice
++S
++strong
+18.000
+Subtotal
+18.000
+Total
+19.000
+CASH
+1.000
+Kembalian

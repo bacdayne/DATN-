@@ -1,0 +1,15 @@
+BAKE
+R
+*6 Pcs -Cheese Tart
+Rp165000.00
+PP Carrier
+Boxof 6
+Subtotal:
+Rp165000.00
+Total Tax Included
+Rp15000.00
+Rp165000.00
+Total:
+Rp165000.00
+Customer Paid Visa
+Rp0.00

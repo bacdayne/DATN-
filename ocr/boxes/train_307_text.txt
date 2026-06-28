@@ -1,0 +1,12 @@
+10,455
+1Choco Peanut
+10,455
+SubTotal:
+1,046
+PBi:
+11,500
+Tatal:
+50,000
+cash:
+38,500
+Change:

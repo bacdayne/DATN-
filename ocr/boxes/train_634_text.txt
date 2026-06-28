@@ -1,0 +1,10 @@
+Seaweed Chicken
+42,000
+0
+-Sedang
+42,000
+ITEMS:1
+42,000
+Total.
+42,000
+DEBIT BCA

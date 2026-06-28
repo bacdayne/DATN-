@@ -1,0 +1,17 @@
+1001-Choco Run
+22.000
+x1
+22.000
+6001-Plastic Bag Small
+x1
+0
+0
+2
+Total Item:
+22.000
+Total.
+Cash
+25.000
+Tendered:
+3.000
+Change:

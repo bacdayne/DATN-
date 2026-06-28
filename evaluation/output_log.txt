@@ -1,0 +1,1270 @@
+parse_ok: 100
+parse_fail: 0
+Ground Truth: -ticketcp , Prediction: e0000
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: -60000 , Prediction: 
+Ground Truth: 5455 , Prediction: 5455
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: jstbpromo , Prediction: ybbat
+Ground Truth: ybbat , Prediction: ybasoprom
+Ground Truth: ybasoprom , Prediction: 
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth: 17500 , Prediction: 17500
+Ground Truth: 46000 , Prediction: 27500
+Ground Truth: 27500 , Prediction: 
+Ground Truth: 91000 , Prediction: 46000
+Ground Truth: 91000 , Prediction: 91000
+Ground Truth: jasminemtl , Prediction: conutjelly
+Ground Truth: 1 , Prediction: 1
+Ground Truth:  , Prediction: 24000
+Ground Truth: 24000 , Prediction: 24000
+Ground Truth: 28000 , Prediction: 28000
+Ground Truth: 28000 , Prediction: 28000
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 72000 , Prediction: 72000
+Ground Truth: donatgula , Prediction: donatgula
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 11000 , Prediction: 11000
+Ground Truth: 11000 , Prediction: 11000
+Ground Truth: 11000 , Prediction: 11000
+Ground Truth: 11000 , Prediction: 11000
+Ground Truth: 11000 , Prediction: 11000
+Ground Truth: iceblackcoffe , Prediction: iceblackcoffee
+Ground Truth: avocadocoffee , Prediction: avocadocoffee
+Ground Truth: chikenkatsuff , Prediction: chickenkatsun
+Ground Truth: 2 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 82000 , Prediction: 32000
+Ground Truth: 61000 , Prediction: 61000
+Ground Truth: 51000 , Prediction: 51000
+Ground Truth: 194000 , Prediction: 
+Ground Truth: 19400 , Prediction: 
+Ground Truth: 174600 , Prediction: 194000
+Ground Truth: 200000 , Prediction: 200000
+Ground Truth: 25400 , Prediction: 25400
+Ground Truth: tradkytoastcarte , Prediction: tradkytoastcarte
+Ground Truth:  , Prediction: 1
+Ground Truth: 28182 , Prediction: 28182
+Ground Truth: 28182 , Prediction: 28182
+Ground Truth: 2818 , Prediction: 2818
+Ground Truth: 31000 , Prediction: 31000
+Ground Truth: 31000 , Prediction: 31000
+Ground Truth: eggtart , Prediction: ggtart
+Ground Truth: chococusardpastry , Prediction: chococusardpastry
+Ground Truth: redbeanbread , Prediction: redbeanbiead
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 2 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 13000 , Prediction: 13000
+Ground Truth: 24000 , Prediction: 24000
+Ground Truth: 9000 , Prediction: 9000
+Ground Truth: 46000 , Prediction: 46000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 4000 , Prediction: 4000
+Ground Truth: kupon15 , Prediction: kupon15
+Ground Truth:  , Prediction: 1
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 100909 , Prediction: 100000
+Ground Truth: 10091 , Prediction: 10000
+Ground Truth: 111000 , Prediction: 100000
+Ground Truth: 111000 , Prediction: 111000
+Ground Truth:  , Prediction: 11000
+Ground Truth: regblacksakura , Prediction: regblacksakura
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 45455 , Prediction: 45455
+Ground Truth: 45455 , Prediction: 45455
+Ground Truth: 4545 , Prediction: 4545
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: bumbukalduayam1 , Prediction: bumbukalduayam
+Ground Truth:  , Prediction: 1
+Ground Truth: 36000 , Prediction: 36000
+Ground Truth: 36000 , Prediction: 36000
+Ground Truth: 36000 , Prediction: 36000
+Ground Truth:  , Prediction: 36000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 14000 , Prediction: 14000
+Ground Truth: cinnamonsugar , Prediction: cinnamonsugar
+Ground Truth: 1x , Prediction: x1
+Ground Truth: 17000 , Prediction: 17000
+Ground Truth: 17000 , Prediction: 17000
+Ground Truth: 17000 , Prediction: 17000
+Ground Truth: 17000 , Prediction: 17000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 3000 , Prediction: 3000
+Ground Truth: banaberryfreshcreamcak , Prediction: banaberryfreshcreamcak
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 230000 , Prediction: 230000
+Ground Truth: 230000 , Prediction: 230000
+Ground Truth: 230000 , Prediction: 230000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: bluswanita , Prediction: 29
+Ground Truth: shoppingbag , Prediction: 0571-1854bluswanita
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 120000 , Prediction: 
+Ground Truth: 880 , Prediction: 
+Ground Truth:  , Prediction: 120000
+Ground Truth:  , Prediction: 120000
+Ground Truth: 120000 , Prediction: 120000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 120000 , Prediction: 120000
+Ground Truth: basokuah , Prediction: hasdklah
+Ground Truth: amineralgelas , Prediction: amneralcelas
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 43636 , Prediction: 464
+Ground Truth: 3000 , Prediction: 3000
+Ground Truth: 43636 , Prediction: 464
+Ground Truth: 3000 , Prediction: 3000
+Ground Truth: 4663646636 , Prediction: 4666
+Ground Truth: 4664 , Prediction: 460
+Ground Truth: 51300 , Prediction: 51300
+Ground Truth: 52000 , Prediction: 52000
+Ground Truth: 700 , Prediction: 700
+Ground Truth: redvelvetcheeseslc , Prediction: redvelvetcheeseslc
+Ground Truth: chickenbakedrice , Prediction: chickenbakedrice
+Ground Truth: fishnchips , Prediction: fishnchips
+Ground Truth: mushroomsoup , Prediction: mushroomsoup
+Ground Truth: chamomile , Prediction: chamomile
+Ground Truth: icedtea , Prediction: 
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 2
+Ground Truth: 1 , Prediction: 
+Ground Truth: 38000 , Prediction: 38000
+Ground Truth: 55000 , Prediction: 55000
+Ground Truth: 65000 , Prediction: 65000
+Ground Truth: 35000 , Prediction: 35000
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 20000 , Prediction: 
+Ground Truth: 238000 , Prediction: 238000
+Ground Truth: 25585 , Prediction: 25585
+Ground Truth: 281435 , Prediction: 281435
+Ground Truth: 200000 , Prediction: 200000
+Ground Truth: 18565 , Prediction: 18565
+Ground Truth: lemonteal , Prediction: lemonteal
+Ground Truth: caramelsmall , Prediction: caramelsmall
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 38000 , Prediction: 38000
+Ground Truth: 63000 , Prediction: 63000
+Ground Truth: 70000 , Prediction: 70000
+Ground Truth: 7000 , Prediction: 7000
+Ground Truth: lgblacksakura , Prediction: lgblacksakura
+Ground Truth: ivineralwaterbundling5k , Prediction: longan
+Ground Truth:  , Prediction: roastedalmond
+Ground Truth:  , Prediction: manggo
+Ground Truth:  , Prediction: vineralwaterbundling
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth: 59091 , Prediction: 59091
+Ground Truth: 4545 , Prediction: 0
+Ground Truth:  , Prediction: 0
+Ground Truth:  , Prediction: 0
+Ground Truth:  , Prediction: 5k
+Ground Truth: 63636 , Prediction: 63636
+Ground Truth: 6364 , Prediction: 6364
+Ground Truth: 70000 , Prediction: 70000
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: goblin'smace , Prediction: goblin'smace
+Ground Truth: mozarellahotdog , Prediction: mozarellahot
+Ground Truth: chilipeppercroquette , Prediction: croquette
+Ground Truth: cheesecroquette , Prediction: cheesecroquette
+Ground Truth: plastikamook , Prediction: 
+Ground Truth: plastikputihtakeaway , Prediction: 
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 2 , Prediction: 1
+Ground Truth: 1 , Prediction: 2
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 
+Ground Truth: 1 , Prediction: 
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 38000 , Prediction: 38000
+Ground Truth: 14000 , Prediction: 14000
+Ground Truth: 14000 , Prediction: 14000
+Ground Truth: 0 , Prediction: 
+Ground Truth: 0 , Prediction: 
+Ground Truth: 91000 , Prediction: 91000
+Ground Truth: 0 , Prediction: 
+Ground Truth: 91000 , Prediction: 91000
+Ground Truth: 91000 , Prediction: 91000
+Ground Truth: propoliscair , Prediction: propoliscair1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 156000 , Prediction: 156000
+Ground Truth: 156000 , Prediction: 156000
+Ground Truth:  , Prediction: 156000
+Ground Truth: 156000 , Prediction: 156000
+Ground Truth: 156000 , Prediction: 156000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: ambushdblchs , Prediction: ambu5hdblchs
+Ground Truth: ambushchsbur , Prediction: anbushchsbur
+Ground Truth: 4 , Prediction: 1
+Ground Truth: 10 , Prediction: 1
+Ground Truth: 60000 , Prediction: 40000
+Ground Truth: 100000 , Prediction: 10000
+Ground Truth: 160000 , Prediction: 50000
+Ground Truth: 16000 , Prediction: 10000
+Ground Truth: 176000 , Prediction: 60000
+Ground Truth: cashewnutschkn , Prediction: cashewnutechkn
+Ground Truth: garlicpepperbeef , Prediction: qarlicpepperbeer
+Ground Truth: redcurrybeef , Prediction: redcurrybeet
+Ground Truth: phadthai , Prediction: phadthai
+Ground Truth: steamedrice , Prediction: steanedrice
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 4 , Prediction: 1
+Ground Truth: 64500 , Prediction: 79500
+Ground Truth: 79500 , Prediction: 69500
+Ground Truth: 69500 , Prediction: 64500
+Ground Truth: 64500 , Prediction: 47600
+Ground Truth: 47600 , Prediction: 47600
+Ground Truth: 325600 , Prediction: 325600
+Ground Truth: 34351 , Prediction: 17909
+Ground Truth: 377859 , Prediction: 343510
+Ground Truth: nasigorsfdtlr , Prediction: nasigorsfdtlr
+Ground Truth: estehtawar , Prediction: estehtawar
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 35000 , Prediction: 35000
+Ground Truth: 3000 , Prediction: 13000
+Ground Truth: 35000 , Prediction: 35000
+Ground Truth: 3000 , Prediction: 13000
+Ground Truth: 38000 , Prediction: 48000
+Ground Truth: 50000 , Prediction: r50000
+Ground Truth: 12000 , Prediction: 12000
+Ground Truth: mdsoftsteamedcheesec , Prediction: mdsoftsteamedcheesec
+Ground Truth: mdsoftsteamedchococa , Prediction: mdsoftsteamedchoccca
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: twistdonut , Prediction: twistdonut
+Ground Truth: redbeanbread , Prediction: redbeanbread
+Ground Truth: 6 , Prediction: 6
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 54000 , Prediction: 54000
+Ground Truth: 9000 , Prediction: 9000
+Ground Truth: 63000 , Prediction: 63000
+Ground Truth: 70000 , Prediction: 70000
+Ground Truth: 7000 , Prediction: 7000
+Ground Truth: 5001-cornflakescookies , Prediction: 5001-cornflakescookies
+Ground Truth: 5003-chokoretocookies , Prediction: 5003-chokoretocookies
+Ground Truth: 6002-plasticbagmedium , Prediction: 6002-plastichagmedium
+Ground Truth: x1 , Prediction: 1
+Ground Truth: x1 , Prediction: 1
+Ground Truth: x1 , Prediction: 1
+Ground Truth: 56000 , Prediction: 56000
+Ground Truth: 62000 , Prediction: 62000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 56000 , Prediction: 56000
+Ground Truth: 62000 , Prediction: 62000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 118000 , Prediction: 118000
+Ground Truth: 118000 , Prediction: 118000
+Ground Truth: twiststrawberrydonut , Prediction: twiststrawberrydonut
+Ground Truth: tljcroquette , Prediction: tljcroquette
+Ground Truth: potatopepperbagel , Prediction: potatopepperbagel
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth:  , Prediction: 10000
+Ground Truth:  , Prediction: 17000
+Ground Truth:  , Prediction: 16000
+Ground Truth: 10000 , Prediction: 10000
+Ground Truth: 17000 , Prediction: 17000
+Ground Truth: 16000 , Prediction: 16000
+Ground Truth: 43000 , Prediction: 43000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 7000 , Prediction: 7000
+Ground Truth: nasicapcayporsibesar , Prediction: nasicapcayporsib
+Ground Truth: tehtawar , Prediction: minuman
+Ground Truth: fuyunghai , Prediction: lain-lain
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 65000 , Prediction: 65000
+Ground Truth: 4000 , Prediction: 4000
+Ground Truth: 65000 , Prediction: 5000
+Ground Truth: 65000 , Prediction: 65000
+Ground Truth: 65000 , Prediction: 8000
+Ground Truth:  , Prediction: 5000
+Ground Truth: 138000 , Prediction: 138000
+Ground Truth: 138000 , Prediction: 138000
+Ground Truth: 138000 , Prediction: 138000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: pktayam , Prediction: pktayam
+Ground Truth: gulaiotak , Prediction: gulaiotak
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth: 33000 , Prediction: 33000
+Ground Truth: 23000 , Prediction: 23000
+Ground Truth: 56000 , Prediction: 56000
+Ground Truth: 5600 , Prediction: 5600
+Ground Truth: 61600 , Prediction: 61600
+Ground Truth: 61600 , Prediction: 
+Ground Truth: samgyopsal , Prediction: samgyopsal
+Ground Truth: sullungtang , Prediction: sullungtang
+Ground Truth: makoli , Prediction: makoli
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 194000 , Prediction: 194000
+Ground Truth: 75000 , Prediction: 75000
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 369000 , Prediction: 369000
+Ground Truth: 0 , Prediction: 
+Ground Truth: 38745 , Prediction: 38745
+Ground Truth: 426195 , Prediction: 426195
+Ground Truth: coldocha , Prediction: coldocha
+Ground Truth: bcapromo , Prediction: bcapromo
+Ground Truth: skeweredshumai , Prediction: iaburaudonspicy
+Ground Truth: skeweredtofuroll , Prediction: i-kakeudon
+Ground Truth: ebitempura , Prediction: skeweredshumai
+Ground Truth: kitsuneudonkids , Prediction: ebitempura
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 10909 , Prediction: 10909
+Ground Truth: 54455 , Prediction: 54455
+Ground Truth: 12727 , Prediction: 12727
+Ground Truth: 12727 , Prediction: 12727
+Ground Truth: 13636 , Prediction: 13636
+Ground Truth: 28182 , Prediction: 13636
+Ground Truth: 132636 , Prediction: 28182
+Ground Truth: 13264 , Prediction: 13264
+Ground Truth: 145900 , Prediction: 41446
+Ground Truth: 145900 , Prediction: 41446
+Ground Truth: kupon3 , Prediction: kupon3
+Ground Truth:  , Prediction: 1
+Ground Truth: 28636 , Prediction: 28636
+Ground Truth: 28636 , Prediction: 28636
+Ground Truth: 2864 , Prediction: 2864
+Ground Truth: 31500 , Prediction: 31499
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 18500 , Prediction: 18500
+Ground Truth: salmonpesto , Prediction: salmonpesto
+Ground Truth: salmonpesto , Prediction: 
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 
+Ground Truth: 85500 , Prediction: 85500
+Ground Truth: 85500 , Prediction: 
+Ground Truth: 85500 , Prediction: 85500
+Ground Truth: 18126 , Prediction: 10260
+Ground Truth: 113886 , Prediction: 113886
+Ground Truth: thaiicedgreentea , Prediction: thaiicedgreentea
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 24000 , Prediction: 24000
+Ground Truth: 24000 , Prediction: 24000
+Ground Truth: 24000 , Prediction: 24000
+Ground Truth: 24000 , Prediction: 24000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 26000 , Prediction: 26000
+Ground Truth: grilledbabypotator , Prediction: grilledbabypotator
+Ground Truth: hottuna , Prediction: hottuna
+Ground Truth: hottuna , Prediction: 
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 
+Ground Truth: 50500 , Prediction: 50500
+Ground Truth: 67000 , Prediction: 67000
+Ground Truth: 67000 , Prediction: 
+Ground Truth: 117500 , Prediction: 117500
+Ground Truth: 19557 , Prediction: 11070
+Ground Truth: 148127 , Prediction: 148127
+Ground Truth: ashchicksambalmatah , Prediction: ashchicksambamatah
+Ground Truth: jamurgoreng , Prediction: jamurgoreng
+Ground Truth: 5 , Prediction: 1
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 75000 , Prediction: 75000
+Ground Truth: 10000 , Prediction: 10000
+Ground Truth: 85000 , Prediction: 85000
+Ground Truth: 8500 , Prediction: 8500
+Ground Truth: 93500 , Prediction: 93500
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 6500 , Prediction: 6500
+Ground Truth: twistdonut , Prediction: twistdonut
+Ground Truth: bananadonut , Prediction: bananadonut
+Ground Truth: creamcheesebread , Prediction: creamcheesebread
+Ground Truth: frankfrutsausageroll , Prediction: frankfruitsausageroll
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 18000 , Prediction: 18000
+Ground Truth: 11000 , Prediction: 11000
+Ground Truth: 13000 , Prediction: 13000
+Ground Truth: 12000 , Prediction: 12000
+Ground Truth: 54000 , Prediction: 50000
+Ground Truth: 104000 , Prediction: 104000
+Ground Truth: 50000 , Prediction: 5000
+Ground Truth: xxlcrispychicken , Prediction: xxlcrspychicken
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: popcornsalts , Prediction: popcornsalts
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth:  , Prediction: 20000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: xlborgpork10x , Prediction: xlborgpork10x
+Ground Truth: sicitobabi , Prediction: sicitobabi
+Ground Truth: hotplatetahu , Prediction: hotplatetahu
+Ground Truth: dffishfilletgarlc , Prediction: dffishfilletgarlic
+Ground Truth: lmporkbelly , Prediction: lmporkbelly
+Ground Truth: siewmai , Prediction: siewmal
+Ground Truth: kwanyincup , Prediction: kwanyincup
+Ground Truth: herbaljelly , Prediction: herbaljelly
+Ground Truth: onde-onde , Prediction: onde-onde
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 5 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 78000 , Prediction: 78000
+Ground Truth: 65000 , Prediction: 65000
+Ground Truth: 58000 , Prediction: 58000
+Ground Truth: 108000 , Prediction: 108000
+Ground Truth: 88000 , Prediction: 88000
+Ground Truth: 38800 , Prediction: 38800
+Ground Truth: 50000 , Prediction: 38000
+Ground Truth: 38000 , Prediction: 50000
+Ground Truth: 38000 , Prediction: 50000
+Ground Truth: 561800 , Prediction: 561800
+Ground Truth: 60394 , Prediction: 42135
+Ground Truth: 664329 , Prediction: 664329
+Ground Truth: lunchbox3psetw/redbag&sp00n , Prediction: hpl754drlunchbox3psetw/redbag&spoo
+Ground Truth: ricecase7lw/cup , Prediction: hpl500ricecase7lh/cup
+Ground Truth: lunchbox3psetw/blackbag&spoon , Prediction: 4pc
+Ground Truth: 8 , Prediction: 8pcs
+Ground Truth: 5 , Prediction: 5pc
+Ground Truth: 4 , Prediction: 243000
+Ground Truth: 243000 , Prediction: 243000
+Ground Truth: 195000 , Prediction: 195000
+Ground Truth: 243000 , Prediction: 972000
+Ground Truth: 1944000 , Prediction: 1944000
+Ground Truth: 975000 , Prediction: 975000
+Ground Truth: 972000 , Prediction: 777600
+Ground Truth:  , Prediction: 1555200
+Ground Truth: 3112800 , Prediction: 1555200
+Ground Truth: snacklestariall , Prediction: bakeryanekasisirbananapizzayokoyhar
+Ground Truth: bakeryanekasisirbananapizzayokomarmerdagingabonkejucokelatdll , Prediction: dagingabonkejucokelat
+Ground Truth: 2 , Prediction: 1
+Ground Truth: 2 , Prediction: 1
+Ground Truth: 27000 , Prediction: 
+Ground Truth: 7000 , Prediction: 
+Ground Truth: 54000 , Prediction: 222000
+Ground Truth: 14000 , Prediction: 14000
+Ground Truth:  , Prediction: 27000
+Ground Truth: 68000 , Prediction: 27000
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 32000 , Prediction: 73000
+Ground Truth: chickenmaryland , Prediction: chickenmaryland
+Ground Truth: cappucinohot/iced , Prediction: cappucinohot/iced
+Ground Truth: nagalycheejuice , Prediction: nagalycheejuice
+Ground Truth: cafelatte , Prediction: cafelatte
+Ground Truth: hotchocolatemarshmallo , Prediction: hotchocolatemarshmallo
+Ground Truth: chickencesarsalad , Prediction: chickencesarsalad
+Ground Truth: mineralwater , Prediction: mineralwater
+Ground Truth: mineralwater , Prediction: mineralwater
+Ground Truth: lychee/peach/lemon/mango , Prediction: lychee/peach/lemon/mango
+Ground Truth: chickenmaryland , Prediction: 
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth: 4761900 , Prediction: 4761900
+Ground Truth: 3030300 , Prediction: 3030300
+Ground Truth: 3463200 , Prediction: 3463200
+Ground Truth: 3030300 , Prediction: 3030300
+Ground Truth: 3030300 , Prediction: 3030300
+Ground Truth: 4329000 , Prediction: 4329000
+Ground Truth: 1298700 , Prediction: 1298700
+Ground Truth: 1298700 , Prediction: 1298700
+Ground Truth: 2597400 , Prediction: 2597400
+Ground Truth: 4761900 , Prediction: 
+Ground Truth: 31601700 , Prediction: 4898268
+Ground Truth:  , Prediction: 4898268
+Ground Truth: 36500000 , Prediction: 
+Ground Truth: chickenhcc1pcs , Prediction: chickenhcc1pcs
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 15000 , Prediction: 15000
+Ground Truth: 15000 , Prediction: 15000
+Ground Truth: 1500 , Prediction: 1500
+Ground Truth: 16500 , Prediction: 16500
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 33500 , Prediction: 33500
+Ground Truth: cheesetart , Prediction: 6pcscheesetart
+Ground Truth: 6 , Prediction: 6
+Ground Truth:  , Prediction: 16500000
+Ground Truth: 16500000 , Prediction: 15000000
+Ground Truth: 16500000 , Prediction: 15000000
+Ground Truth: 1500000 , Prediction: 1650000
+Ground Truth: 16500000 , Prediction: 16500000
+Ground Truth: 20000000 , Prediction: 20000000
+Ground Truth: 3500000 , Prediction: 3500000
+Ground Truth: combo1 , Prediction: combo1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: lemonteal , Prediction: lemonteal
+Ground Truth: mike&ikeoriginal , Prediction: mike&ikeoriginal
+Ground Truth: mike&berry , Prediction: mike&berry
+Ground Truth: rotikejumanis , Prediction: 
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 28000 , Prediction: 28000
+Ground Truth: 28000 , Prediction: 28000
+Ground Truth: 7000 , Prediction: 
+Ground Truth: 88000 , Prediction: 88000
+Ground Truth: 88000 , Prediction: 88000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: s-bubblemilktea , Prediction: s-bubb1emilktea
+Ground Truth: s-caramelmilktea , Prediction: s-carame1milktea
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: copia1/gb , Prediction: copia1/gb
+Ground Truth: plasticbagredcentralsi , Prediction: plasticbagredcentralsi1
+Ground Truth: copia1/gb , Prediction: 
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 
+Ground Truth: 4500000 , Prediction: 4500000
+Ground Truth: 000 , Prediction: 000
+Ground Truth: 1800000 , Prediction: 
+Ground Truth: 4500000 , Prediction: 4500000
+Ground Truth: 000 , Prediction: 000
+Ground Truth: 1800000 , Prediction: 
+Ground Truth:  , Prediction: 9100544
+Ground Truth: 000 , Prediction: 
+Ground Truth:  , Prediction: 000
+Ground Truth: 6300000 , Prediction: 9100544
+Ground Truth: 6300000 , Prediction: 6300000
+Ground Truth: s-hazelnutkoicafe , Prediction: s~hazelnutk0icafe
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 22728 , Prediction: 25000
+Ground Truth: 2272 , Prediction: 2272
+Ground Truth: 25000 , Prediction: 27272
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 75000 , Prediction: 75000
+Ground Truth: ptgseggtart , Prediction: ptgseggtart
+Ground Truth: chocomelt , Prediction: chocomelt
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 12000 , Prediction: 12000
+Ground Truth: 11000 , Prediction: 11000
+Ground Truth: 23000 , Prediction: 23000
+Ground Truth: 23000 , Prediction: 23000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 27000 , Prediction: 27000
+Ground Truth: supericecauburry , Prediction: spefricecauvurry
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 17727 , Prediction: 17727
+Ground Truth: 17727 , Prediction: 17727
+Ground Truth: 1773 , Prediction: 1773
+Ground Truth: 19500 , Prediction: 19500
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 80500 , Prediction: 80500
+Ground Truth: tanasigrgterimedan , Prediction: trai:custon
+Ground Truth: tabihungorengseafood , Prediction: seafood
+Ground Truth: takwetiawseafoodsiram , Prediction: kwetiawseafood
+Ground Truth: tanasigoreng , Prediction: nasigoreng
+Ground Truth: 4 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 2
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 165460 , Prediction: 46456
+Ground Truth: 40456 , Prediction: 42274
+Ground Truth: 42274 , Prediction: 84548
+Ground Truth: 55456 , Prediction: 30365
+Ground Truth: 303646 , Prediction: 110000
+Ground Truth: 30365 , Prediction: 33400
+Ground Truth: 334000 , Prediction: 143400
+Ground Truth: 334000 , Prediction: 334000
+Ground Truth: thaiicedtea , Prediction: thaiicedtea
+Ground Truth: thaiicedtea , Prediction: thaiicedtea
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: pecelkomplit+nasi , Prediction: pecelkomplit+nasi
+Ground Truth: sotokudus , Prediction: sotokudus
+Ground Truth: mineralwater , Prediction: mineralwater
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 42000 , Prediction: 42000
+Ground Truth: 47000 , Prediction: 47000
+Ground Truth: 18000 , Prediction: 18000
+Ground Truth: 107000 , Prediction: 107000
+Ground Truth: 11235 , Prediction: 5350
+Ground Truth: 123585 , Prediction: 123585
+Ground Truth: kacangmerah , Prediction: kacangmerah
+Ground Truth:  , Prediction: 1
+Ground Truth: 10000 , Prediction: 10000
+Ground Truth: 10000 , Prediction: 10000
+Ground Truth: 10000 , Prediction: 10000
+Ground Truth: 10000 , Prediction: 10000
+Ground Truth: applecinnamonpastry , Prediction: applecinnamonpastry
+Ground Truth: royalcheesetart , Prediction: royalcheesetart
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 32000 , Prediction: 32000
+Ground Truth: 54000 , Prediction: 54000
+Ground Truth: 54000 , Prediction: 54000
+Ground Truth: airmineral , Prediction: airmineral
+Ground Truth:  , Prediction: 1
+Ground Truth: 8181 , Prediction: 8181
+Ground Truth: 8181 , Prediction: 8181
+Ground Truth: 818 , Prediction: 818
+Ground Truth: 8999 , Prediction: 9000
+Ground Truth: 10000 , Prediction: 10000
+Ground Truth: 1001 , Prediction: 1001
+Ground Truth: icedtt , Prediction: iceott
+Ground Truth: icedgt , Prediction: iceogt
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth:  , Prediction: 42000
+Ground Truth: 42000 , Prediction: 42000
+Ground Truth: phobotai , Prediction: phobotat
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 55000 , Prediction: 55000
+Ground Truth: 55000 , Prediction: 55000
+Ground Truth: 5500 , Prediction: 5500
+Ground Truth: 60500 , Prediction: 60500
+Ground Truth: 100000100000 , Prediction: 100000
+Ground Truth: 39500 , Prediction: 39500
+Ground Truth: tahuisi , Prediction: tahuisi
+Ground Truth: tea , Prediction: tea
+Ground Truth: kepiting7-84ons-chilly071 , Prediction: kepiting7-84ons-chilly07
+Ground Truth: udangtelurasin-regular , Prediction: udangtelurasin-regular
+Ground Truth: kailan2rasa , Prediction: kailan2rasa
+Ground Truth: mantau-2pcs , Prediction: mantau'-2pcs
+Ground Truth: sweettea , Prediction: sweettea
+Ground Truth: nasiputih , Prediction: nasiputih
+Ground Truth: mantau-3pcs , Prediction: mantau-3pcs
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 5 , Prediction: 5
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 7 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 78000 , Prediction: 78000
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: 297490 , Prediction: 29749
+Ground Truth: 47500 , Prediction: 47500
+Ground Truth: 45000 , Prediction: 45000
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 16000 , Prediction: 16000
+Ground Truth: 42000 , Prediction: 7000
+Ground Truth: 37500 , Prediction: 37500
+Ground Truth: 618490 , Prediction: 618490
+Ground Truth: 61849 , Prediction: 61849
+Ground Truth: 680500 , Prediction: 680500
+Ground Truth: toppingmilosparkleuntuk1porsi , Prediction: toppingmilosparkleuntuk1po
+Ground Truth: bolaubiminioriginal14pcs , Prediction: bolaubiminioriginal14pcs
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 2x , Prediction: 2x
+Ground Truth: 1250 , Prediction: 1250
+Ground Truth: 12500 , Prediction: 25000
+Ground Truth: 1250 , Prediction: 1250
+Ground Truth: 25000 , Prediction: 26250
+Ground Truth: 26250 , Prediction: 26250
+Ground Truth: - , Prediction: 26250
+Ground Truth: 26250 , Prediction: 26250
+Ground Truth: talamungu , Prediction: talahungu
+Ground Truth: arem-arem , Prediction: arem-arem
+Ground Truth: lemper , Prediction: lemper
+Ground Truth: mikasedang , Prediction: hikasedang
+Ground Truth: plastikkecil , Prediction: plastikkecil
+Ground Truth: tehkotak , Prediction: tehkotak
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 2x , Prediction: 2x
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 6500 , Prediction: 5500
+Ground Truth: 8000 , Prediction: 3000
+Ground Truth: 9000 , Prediction: 9000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 0 , Prediction: 5000
+Ground Truth: 5000 , Prediction: 7000
+Ground Truth: 6500 , Prediction: 5500
+Ground Truth: 8000 , Prediction: 3000
+Ground Truth: 18000 , Prediction: 18000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 0 , Prediction: 5000
+Ground Truth: 5000 , Prediction: 7000
+Ground Truth: 24500 , Prediction: 24500
+Ground Truth: 24500 , Prediction: 24500
+Ground Truth: 24500 , Prediction: 24500
+Ground Truth: xxijavateam , Prediction: xxijavateam
+Ground Truth: combo2 , Prediction: 
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 
+Ground Truth: 18000 , Prediction: 18000
+Ground Truth: 30000 , Prediction: 
+Ground Truth: 48000 , Prediction: 30000
+Ground Truth: 50000 , Prediction: 48000
+Ground Truth: 2000 , Prediction: 2000
+Ground Truth: kopisusukampung , Prediction: kopisusukampung
+Ground Truth: kopisusukampung , Prediction: kopisusukampung
+Ground Truth: x1 , Prediction: x1
+Ground Truth: x2 , Prediction: x2
+Ground Truth:  , Prediction: 19000
+Ground Truth:  , Prediction: 0
+Ground Truth: 19000 , Prediction: 19000
+Ground Truth: 38000 , Prediction: 0
+Ground Truth: 57000 , Prediction: 57000
+Ground Truth: 57000 , Prediction: 57000
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: 3000 , Prediction: 3000
+Ground Truth: singlescoop , Prediction: singlescoop
+Ground Truth:  , Prediction: 1
+Ground Truth: 16000 , Prediction: 16000
+Ground Truth: 16000 , Prediction: 16000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 34000 , Prediction: 34000
+Ground Truth: buburpolos+telur , Prediction: uburpolos+telur
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 13000 , Prediction: 13000
+Ground Truth: 13000 , Prediction: 13000
+Ground Truth: 13000 , Prediction: 13000
+Ground Truth: - , Prediction: 
+Ground Truth: 13000 , Prediction: 13000
+Ground Truth: pillowduria , Prediction: pillowduria
+Ground Truth: plastik25 , Prediction: 
+Ground Truth:  , Prediction: 1
+Ground Truth: 36364 , Prediction: 36364
+Ground Truth: 0 , Prediction: 
+Ground Truth: 36364 , Prediction: 36364
+Ground Truth: 3636 , Prediction: 3636
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 10000 , Prediction: 10000
+Ground Truth: cheesejohn , Prediction: 2005-cheesejohn
+Ground Truth: x1 , Prediction: x1
+Ground Truth: 950000 , Prediction: 950000
+Ground Truth: 950000 , Prediction: 950000
+Ground Truth: 950000 , Prediction: 950000
+Ground Truth: 950000 , Prediction: 950000
+Ground Truth:  , Prediction: 000006
+Ground Truth: icedtt , Prediction: icedtt
+Ground Truth:  , Prediction: 1
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: mdsoftmorningroll , Prediction: mdsoftmorningroll
+Ground Truth: realhoneypancakebread , Prediction: realhoneypancakebread
+Ground Truth: custardbrioche , Prediction: custardbrioche
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 4 , Prediction: 4
+Ground Truth: 18000 , Prediction: 18000
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 36000 , Prediction: 36000
+Ground Truth: 74000 , Prediction: 74000
+Ground Truth: 100000 , Prediction: 100000
+Ground Truth: 26000 , Prediction: 26000
+Ground Truth: udangre , Prediction: udangre216000432000
+Ground Truth: =*large*== , Prediction: aymgrjunnjan
+Ground Truth: aymgrjunnjan , Prediction: sapothseafood
+Ground Truth: sapothseafood , Prediction: pocai3111000222000
+Ground Truth: pocai3 , Prediction: guramefilletm
+Ground Truth: =*medium*= , Prediction: bihungorengjj
+Ground Truth: guramefilletm , Prediction: icedtea
+Ground Truth: bihungorengjj , Prediction: nasiputih
+Ground Truth: icedtea , Prediction: food
+Ground Truth: nasiputih , Prediction: beverages
+Ground Truth:  , Prediction: others
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 2 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 2
+Ground Truth: 2 , Prediction: 1
+Ground Truth: 2 , Prediction: 1
+Ground Truth: 1 , Prediction: 5
+Ground Truth: 1 , Prediction: 7
+Ground Truth: 5 , Prediction: 1
+Ground Truth: 7 , Prediction: 6
+Ground Truth:  , Prediction: 1
+Ground Truth: 216000 , Prediction: 
+Ground Truth: 111000 , Prediction: 
+Ground Truth: 12000 , Prediction: 
+Ground Truth: 10000 , Prediction: 
+Ground Truth: 432000 , Prediction: 108000
+Ground Truth: 108000 , Prediction: 172000
+Ground Truth: 172000 , Prediction: 163000
+Ground Truth: 222000 , Prediction: 211000
+Ground Truth: 163000 , Prediction: 60000
+Ground Truth: 116000 , Prediction: 116000
+Ground Truth: 60000 , Prediction: 12000
+Ground Truth: 70000 , Prediction: 70000
+Ground Truth:  , Prediction: 1213000
+Ground Truth:  , Prediction: 60000
+Ground Truth:  , Prediction: 70000
+Ground Truth: 1343000 , Prediction: 1343000
+Ground Truth: 142358 , Prediction: 134300
+Ground Truth: 1565938 , Prediction: 142358
+Ground Truth: cukaapeltetes , Prediction: cukaapeltetes1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 198000 , Prediction: 
+Ground Truth: 198000 , Prediction: 198000
+Ground Truth:  , Prediction: 198000
+Ground Truth: 198000 , Prediction: 198000
+Ground Truth: 200200 , Prediction: 200200
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: chocodevil , Prediction: darepes
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 15909 , Prediction: 15909
+Ground Truth: 15909 , Prediction: 15909
+Ground Truth: 1591 , Prediction: 1591
+Ground Truth: 17500 , Prediction: 17500
+Ground Truth: 20000 , Prediction: 20000
+Ground Truth: 2500 , Prediction: 2500
+Ground Truth: 1001-chocobun , Prediction: 1001-chocorun
+Ground Truth: 6001-plasticbagsmall , Prediction: 6001-plasticbagsmall
+Ground Truth: x1 , Prediction: x1
+Ground Truth: x1 , Prediction: x1
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 3000 , Prediction: 3000
+Ground Truth: blackcurrant , Prediction: blackcurrant
+Ground Truth: sprite , Prediction: sprite
+Ground Truth: grilledcalamari , Prediction: grilledcalamari
+Ground Truth: dinefor2 , Prediction: danishfish&chipsdf
+Ground Truth:  , Prediction: newyorkfish&chips
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth: 32000 , Prediction: 32000
+Ground Truth: 32000 , Prediction: 32000
+Ground Truth: 85000 , Prediction: 64000
+Ground Truth: 129000 , Prediction: 85000
+Ground Truth:  , Prediction: 129000
+Ground Truth: 278000 , Prediction: 214000
+Ground Truth: 30024 , Prediction: 27800
+Ground Truth: 330264 , Prediction: 222240
+Ground Truth: chocopuff , Prediction: chocopuff
+Ground Truth: creamybeefclsftc , Prediction: creamybeefclsftc
+Ground Truth: neworientalchkrice , Prediction: neworientalchkrice
+Ground Truth: liptonpitcher , Prediction: liptonpitcher
+Ground Truth: sc/psupersupreme , Prediction: sc/psupersuprehe
+Ground Truth: cb/pblackpeppbeef , Prediction: cb/pblackpeppbeep
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 29091 , Prediction: 29091
+Ground Truth: 42727 , Prediction: 42727
+Ground Truth: 34545 , Prediction: 34545
+Ground Truth: 54545 , Prediction: 54545
+Ground Truth: 47273 , Prediction: 47273
+Ground Truth: 48182 , Prediction: 48182
+Ground Truth: 256363 , Prediction: 256363
+Ground Truth: 25637 , Prediction: 25637
+Ground Truth: 282000 , Prediction: 282000
+Ground Truth: basotahu , Prediction: basotahu
+Ground Truth: nasiputih , Prediction: nasiputih
+Ground Truth: basotahu , Prediction: 
+Ground Truth: nasiputih , Prediction: 
+Ground Truth: 2x , Prediction: 4
+Ground Truth:  , Prediction: 6
+Ground Truth: 6000 , Prediction: 
+Ground Truth: *46000 , Prediction: *46000
+Ground Truth: *6000 , Prediction: *46000
+Ground Truth: *46000 , Prediction: 
+Ground Truth: *12000 , Prediction: 
+Ground Truth:  , Prediction: 110000
+Ground Truth: *110000 , Prediction: 
+Ground Truth: tripplecheese , Prediction: tripplecheese
+Ground Truth: 1x , Prediction: 1
+Ground Truth: 17000 , Prediction: 17000
+Ground Truth: 17000 , Prediction: 17000
+Ground Truth: 17000 , Prediction: 17000
+Ground Truth: 17000 , Prediction: 17000
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 5000 , Prediction: 5000
+Ground Truth: lemonteal , Prediction: lemonteal
+Ground Truth:  , Prediction: extrajellylychee
+Ground Truth: 1 , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth:  , Prediction: 5000
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 1001-chocobun , Prediction: 1001-chocobun
+Ground Truth: 6001-plasticbagsmall , Prediction: 6001-plasticbagsmall
+Ground Truth: x1 , Prediction: x1
+Ground Truth: x1 , Prediction: x1
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 22000 , Prediction: 
+Ground Truth: vietmilkcoffee , Prediction: vietmilkcoffee
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 3002-kyotochocomochi , Prediction: 3002-kyotochocomochi
+Ground Truth: 1001-chocobun , Prediction: 1001-chocobun
+Ground Truth: 6001-plasticbagsmall , Prediction: small
+Ground Truth: x2 , Prediction: x2
+Ground Truth: x1 , Prediction: x1
+Ground Truth: x1 , Prediction: x1
+Ground Truth: 14000 , Prediction: 14000
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 28000 , Prediction: 28000
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: chocolatelogcake , Prediction: chocolatelogcake
+Ground Truth: snowmancakechocolate , Prediction: snowmancakechocolate
+Ground Truth: strawberrylogcake , Prediction: strawberrylogcake
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 2x , Prediction: 2x
+Ground Truth: 115000 , Prediction: 115000
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: 105000 , Prediction: 105000
+Ground Truth: 115000 , Prediction: 115000
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: 210000 , Prediction: 210000
+Ground Truth: 385000 , Prediction: 385000
+Ground Truth: 385000 , Prediction: 385000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 385000 , Prediction: 385000
+Ground Truth: cookiesandcream , Prediction: cookiesandcream
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 20909 , Prediction: 20909
+Ground Truth: 20909 , Prediction: 20909
+Ground Truth: 2091 , Prediction: 2091
+Ground Truth: 23000 , Prediction: 23000
+Ground Truth: 25000 , Prediction: 25000
+Ground Truth: 2000 , Prediction: 2000
+Ground Truth: kroket , Prediction: kroket
+Ground Truth: aremarem , Prediction: aremarem
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 2x , Prediction: 2x
+Ground Truth: 12000 , Prediction: 12000
+Ground Truth: 12000 , Prediction: 12000
+Ground Truth: 12000 , Prediction: 12000
+Ground Truth: 24000 , Prediction: 24000
+Ground Truth: 36000 , Prediction: 36000
+Ground Truth: 3600 , Prediction: 3600
+Ground Truth: 39600 , Prediction: 39600
+Ground Truth: nasiputih , Prediction: nasiputih
+Ground Truth: nasitambah , Prediction: nasitambah
+Ground Truth: ayampop , Prediction: ayampop
+Ground Truth: samabalsp , Prediction: samabalsp
+Ground Truth: sambalgabusasincb , Prediction: sambalgabusasincb
+Ground Truth: kerupukkuah , Prediction: kerupukkuah
+Ground Truth: ikanbawalbesa , Prediction: ikanbawalbesa
+Ground Truth: telurdadar , Prediction: telurdadar
+Ground Truth: tehes , Prediction: tehes
+Ground Truth: tehmanis , Prediction: tehmanis
+Ground Truth: esbatu , Prediction: esbatu
+Ground Truth: 3 , Prediction: 3
+Ground Truth: 1 , Prediction: 2
+Ground Truth: 2 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: 7000 , Prediction: 7000
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 11000 , Prediction: 11000
+Ground Truth: 18000 , Prediction: 18000
+Ground Truth: 15000 , Prediction: 15000
+Ground Truth: 28500 , Prediction: 28500
+Ground Truth: 10000 , Prediction: 10000
+Ground Truth: 7000 , Prediction: 7000
+Ground Truth: 9000 , Prediction: 9000
+Ground Truth: 4000 , Prediction: 4000
+Ground Truth: 179500 , Prediction: 179500
+Ground Truth: 17950 , Prediction: 17950
+Ground Truth: 197450 , Prediction: 197450
+Ground Truth: 197450 , Prediction: 197450
+Ground Truth: cheezemania , Prediction: treadlefe
+Ground Truth: mamamia , Prediction: mamamia
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 2
+Ground Truth: 9500 , Prediction: 9500
+Ground Truth: 12500 , Prediction: 12500
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 22000 , Prediction: 22000
+Ground Truth: 52000 , Prediction: 52000
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: photaichin , Prediction: photachn
+Ground Truth: 1 , Prediction: 1
+Ground Truth:  , Prediction: 36500
+Ground Truth: 36500 , Prediction: 36500
+Ground Truth: 36500 , Prediction: 36500
+Ground Truth: 3650 , Prediction: 3650
+Ground Truth: 40150 , Prediction: 40150
+Ground Truth: 40150 , Prediction: 
+Ground Truth: stixeclairs , Prediction: stixeclairs
+Ground Truth: almondcreamcheese , Prediction: almondcreamcheese
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 1x , Prediction: 2x
+Ground Truth: 19000 , Prediction: 19000
+Ground Truth: 28000 , Prediction: 28000
+Ground Truth: 19000 , Prediction: 19000
+Ground Truth: 28000 , Prediction: 56000
+Ground Truth: 47000 , Prediction: 47000
+Ground Truth: 47000 , Prediction: 47000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 47000 , Prediction: 47000
+Ground Truth: xxlcrispychicken , Prediction: xxlcnspychicken
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 40000 , Prediction: 40000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 10000 , Prediction: 10000
+Ground Truth: cirengpandawa , Prediction: cirengpandawa
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 26818 , Prediction: 26818
+Ground Truth: 26818 , Prediction: 26818
+Ground Truth: 2681 , Prediction: 2681
+Ground Truth: 29500 , Prediction: 29500
+Ground Truth: 29500 , Prediction: 29500
+Ground Truth: baksobngks , Prediction: baksobngks
+Ground Truth: gorengan , Prediction: gorengan
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 6 , Prediction: 6
+Ground Truth: 15000 , Prediction: 15000
+Ground Truth: 6000 , Prediction: 6000
+Ground Truth: 21000 , Prediction: 21000
+Ground Truth: 30000 , Prediction: 30000
+Ground Truth: 9000 , Prediction: 9000
+Ground Truth: -ticketcp , Prediction: 240000
+Ground Truth: 4 , Prediction: 4
+Ground Truth: 60000 , Prediction: 60000
+Ground Truth: 240000 , Prediction: 90000
+Ground Truth: 240000 , Prediction: 90000
+Ground Truth: 250000 , Prediction: 250000
+Ground Truth: 10000 , Prediction: 160000
+Ground Truth: thaiicedteal , Prediction: thaiicedteal
+Ground Truth: 1x , Prediction: 1x
+Ground Truth: 16363 , Prediction: 16363
+Ground Truth: 16363 , Prediction: 16363
+Ground Truth: 16363 , Prediction: 16363
+Ground Truth: 1636 , Prediction: 1636
+Ground Truth: 17999 , Prediction: 17999
+Ground Truth: tahugoreng , Prediction: photo
+Ground Truth: cakwe , Prediction: tahugoreng
+Ground Truth: photaichinr , Prediction: cakew
+Ground Truth: tea , Prediction: tea
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 28000 , Prediction: 28000
+Ground Truth: 17000 , Prediction: 17000
+Ground Truth: 63000 , Prediction: 11000
+Ground Truth: 11000 , Prediction: 11900
+Ground Truth: 119000 , Prediction: 48000
+Ground Truth: 12733 , Prediction: 8330
+Ground Truth: 140063 , Prediction: 68063
+Ground Truth: 140063 , Prediction: 140063
+Ground Truth: basotahu , Prediction: basotahu
+Ground Truth: esjeruk , Prediction: esjeruk
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 43181 , Prediction: 
+Ground Truth: 13000 , Prediction: 
+Ground Truth: 43181 , Prediction: 43181
+Ground Truth: 13000 , Prediction: 13000
+Ground Truth: 56181 , Prediction: 56181
+Ground Truth: 5618 , Prediction: 5618
+Ground Truth: 61799 , Prediction: 61799
+Ground Truth: 62000201 , Prediction: 62000
+Ground Truth:  , Prediction: 201
+Ground Truth: bbqchicken , Prediction: bbqchicken
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 41000 , Prediction: 41000
+Ground Truth: 41000 , Prediction: 41000
+Ground Truth: 41000 , Prediction: 41000
+Ground Truth: 50000 , Prediction: 50000
+Ground Truth: 9000 , Prediction: 9000
+Ground Truth: buburgo , Prediction: paokeram
+Ground Truth: puyuhgo , Prediction: buburgo
+Ground Truth: sateatigo , Prediction: puyuhgo
+Ground Truth:  , Prediction: sateatigo
+Ground Truth: 2 , Prediction: 2
+Ground Truth: 3 , Prediction: 2
+Ground Truth:  , Prediction: 3
+Ground Truth:  , Prediction: 3
+Ground Truth: 20000 , Prediction: 
+Ground Truth: 3000 , Prediction: 
+Ground Truth: 40000 , Prediction: 20000
+Ground Truth: 6000 , Prediction: 40000
+Ground Truth: 9000 , Prediction: 6000
+Ground Truth:  , Prediction: 9000
+Ground Truth: 55000 , Prediction: 55000
+Ground Truth: 55000 , Prediction: 55000
+Ground Truth: blackpappermeatballpas , Prediction: blackpeppermeatballpas
+Ground Truth: trufflecream , Prediction: trufflecream
+Ground Truth: earlgreymilktea , Prediction: earlgreymilktea
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 1 , Prediction: 1
+Ground Truth: 79000 , Prediction: 79000
+Ground Truth: 77000 , Prediction: 77000
+Ground Truth: 59000 , Prediction: 59000
+Ground Truth: 215000 , Prediction: 215000
+Ground Truth: 22790 , Prediction: 22790
+Ground Truth: 250690 , Prediction: 250690
+Ground Truth: fl-xmas30off , Prediction: fl-xmas30off
+Ground Truth:  , Prediction: paketslices
+Ground Truth:  , Prediction: flcake-french
+Ground Truth:  , Prediction: flcake-green
+Ground Truth:  , Prediction: paketslices
+Ground Truth:  , Prediction: flcake-belgium
+Ground Truth: 1 , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth:  , Prediction: 1
+Ground Truth: 68180 , Prediction: 68180
+Ground Truth:  , Prediction: 0
+Ground Truth:  , Prediction: 0
+Ground Truth:  , Prediction: 0
+Ground Truth:  , Prediction: 0
+Ground Truth:  , Prediction: 0
+Ground Truth: 68180 , Prediction: 68180
+Ground Truth: 0 , Prediction: 
+Ground Truth: 68180 , Prediction: 6818
+Ground Truth: 75000 , Prediction: 75000
+Ground Truth: 0 , Prediction: 75000
+Ground Truth: 0 , Prediction: 0
+Ground Truth: 75000 , Prediction: 
+===== INSTANCE ACCURACY =====
+    invoice_no  total_keys  matched_keys  accuracy
+0            0           8             6     75.00
+1            1           8             5     62.50
+2            2           7             6     85.71
+3            3           7             7    100.00
+4            4          14             7     50.00
+..         ...         ...           ...       ...
+95          95          12             9     75.00
+96          96           7             7    100.00
+97          97          12            10     83.33
+98          98          12            11     91.67
+99          99          10             6     60.00
+
+[100 rows x 4 columns]
+
+Mean accuracy: 79.18889128182606
+
+===== FIELD METRICS =====
+                         key  precision  recall  ...  fn  total_gt  accuracy
+0                    menu.nm     0.6480  0.6454  ...  89       251    0.6454
+1                   menu.cnt     0.7480  0.8500  ...  33       220    0.8500
+2             menu.unitprice     0.7333  0.6567  ...  23        67    0.6567
+3                 menu.price     0.8200  0.8333  ...  41       246    0.8333
+4   sub_total.subtotal_price     0.7941  0.8308  ...  11        65    0.8308
+5   sub_total.discount_price     0.0000  0.0000  ...   6         6    0.0000
+6        sub_total.tax_price     0.6136  0.6279  ...  16        43    0.6279
+7          total.total_price     0.7576  0.7895  ...  20        95    0.7895
+8            total.cashprice     0.9219  0.8806  ...   8        67    0.8806
+9          total.changeprice     0.8983  0.9464  ...   3        56    0.9464
+10     total.creditcardprice     0.8571  0.7500  ...   4        16    0.7500
+
+[11 rows x 9 columns]
+
+===== SUMMARY =====
+{
+  "num_invoices": 100,
+  "mean_instance_accuracy": 79.18889128182606,
+  "mean_field_precision": 0.7083623675902634,
+  "mean_field_recall": 0.7100585050922632,
+  "mean_field_f1": 0.7082177865993129
+}
+
+Saved:
+evaluation/instance_accuracy.csv
+evaluation/field_metrics.csv
+evaluation/evaluation_summary.json
