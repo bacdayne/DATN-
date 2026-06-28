@@ -22,7 +22,7 @@ finetuning/checkpoints/
 
 # Large datasets / generated images
 cord_v2/
-ocr/debug/
+# ocr/debug/
 
 # OS / editor
 .DS_Store
