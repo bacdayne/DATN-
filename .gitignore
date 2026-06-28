@@ -21,7 +21,7 @@ finetuning/checkpoints/
 !finetuning/qwen2-cord-lora/adapter_model.safetensors
 
 # Large datasets / generated images
-# cord_v2/
+cord_v2/
 # ocr/debug/
 
 # OS / editor
