@@ -307,6 +307,30 @@ st.markdown("""
 if "history" not in st.session_state:
     st.session_state.history = []
 
+
+def record_history():
+    """Append the currently selected sample to history.
+
+    Runs as the RUN button's on_click callback, i.e. *before* the script
+    reruns top-to-bottom, so the History tab label reflects the new count
+    in the same run."""
+    selected = st.session_state.get("sample_select", "")
+    if not selected:
+        return
+    idx = int(selected.split(" — ")[0])
+    it = PREDICTIONS[idx]
+    img_path = normalize_path(it.get("image_path", ""))
+    if idx not in [h["index"] for h in st.session_state.history]:
+        st.session_state.history.append({
+            "index":      idx,
+            "image_name": os.path.basename(img_path),
+            "image_path": img_path,
+            "agent":      it.get("agent_used", it.get("template_id", "general_agent")),
+            "parse_ok":   it.get("parse_ok", False),
+            "prediction": pretty_json(it.get("prediction", "{}")),
+        })
+
+
 # ── TABS ──────────────────────────────────────────────────────────────────────
 tab_main, tab_history, tab_eval = st.tabs(["Extraction", f"History ({len(st.session_state.history)})", "Evaluation"])
 
@@ -320,9 +344,9 @@ with tab_main:
 
     c1, c2, c3 = st.columns([6, 1, 1])
     with c1:
-        selected = st.selectbox("sample", choices, label_visibility="collapsed")
+        selected = st.selectbox("sample", choices, label_visibility="collapsed", key="sample_select")
     with c2:
-        run = st.button("▶  RUN", type="primary", use_container_width=True)
+        run = st.button("▶  RUN", type="primary", use_container_width=True, on_click=record_history)
     with c3:
         if st.button("↺  RESET", use_container_width=True):
             st.session_state.history = []
@@ -340,17 +364,6 @@ with tab_main:
         agent      = item.get("agent_used", item.get("template_id", "general_agent"))
         parse_ok   = item.get("parse_ok", False)
         debug_path = get_debug_image(index, image_path)
-
-        existing = [h["index"] for h in st.session_state.history]
-        if index not in existing:
-            st.session_state.history.append({
-                "index":      index,
-                "image_name": os.path.basename(image_path),
-                "image_path": image_path,
-                "agent":      agent,
-                "parse_ok":   parse_ok,
-                "prediction": prediction,
-            })
 
         col_img, col_ocr, col_txt = st.columns([3, 4, 3])
         with col_img:
