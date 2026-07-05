@@ -166,55 +166,75 @@ html, body, [class*="css"] { font-family: Inter, sans-serif !important; }
 section[data-testid="stSidebar"]       { display: none !important; }
 [data-testid="stDecoration"]           { display: none !important; }
 
-.stApp { background: #f0f4f9 !important; }
+.stApp {
+    background:
+        radial-gradient(1200px 600px at 100% -10%, #e8eef8 0%, rgba(232,238,248,0) 55%),
+        radial-gradient(1000px 500px at -10% 0%, #eaf6f9 0%, rgba(234,246,249,0) 50%),
+        #eef2f8 !important;
+}
+
+/* Kéo nội dung sát lên đầu trang */
+[data-testid="stHeader"] { height: 0 !important; background: transparent !important; }
+.block-container,
+[data-testid="stMainBlockContainer"],
+[data-testid="stAppViewBlockContainer"] {
+    padding-top: 1.4rem !important;
+}
 
 /* Topbar card */
 .topbar {
-    background: white;
-    border: 1px solid #e2e8f0;
+    background: #ffffff;
+    border: 1px solid #e6ebf3;
     border-radius: 14px;
-    box-shadow: 0 1px 4px rgba(0,0,0,.06);
-    padding: 14px 22px;
+    box-shadow: 0 1px 2px rgba(15,23,42,.04), 0 6px 20px rgba(15,23,42,.05);
+    padding: 15px 22px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
     flex-wrap: wrap;
     gap: 12px;
 }
-.brand { display: flex; align-items: center; gap: 10px; }
+.brand { display: flex; align-items: center; gap: 13px; }
 .brand-line {
-    width: 4px; height: 30px; border-radius: 4px;
-    background: linear-gradient(180deg,#06b6d4,#6366f1); flex-shrink: 0;
+    width: 4px; height: 36px; border-radius: 4px; flex-shrink: 0;
+    background: linear-gradient(180deg,#06b6d4,#0891b2);
 }
-.brand-title { font-size: 17px; font-weight: 700; color: #0f172a; }
+.brand-title { font-size: 17px; font-weight: 700; color: #0f172a; letter-spacing: -.2px; line-height:1.2; }
+.brand-sub { font-size: 12px; font-weight: 500; color: #94a3b8; margin-top: 2px; }
 .model-tag {
-    padding: 3px 10px; border-radius: 999px;
-    background: #f1f5f9; border: 1px solid #e2e8f0;
-    font-size: 11px; font-weight: 600; color: #64748b;
+    padding: 3px 11px; border-radius: 999px;
+    background: #1e293b; border: 1px solid #334155;
+    font-size: 11px; font-weight: 600; color: #cbd5e1;
 }
 .badges { display: flex; gap: 8px; flex-wrap: wrap; }
 .badge {
-    padding: 4px 11px; border-radius: 999px;
-    font-size: 11px; font-weight: 600;
+    padding: 5px 12px; border-radius: 999px;
+    font-size: 11px; font-weight: 600; color: #cbd5e1;
+    background: #1e293b; border: 1px solid #334155;
     display: flex; align-items: center; gap: 6px;
 }
-.badge span { width: 6px; height: 6px; border-radius: 50%; }
-.badge.green { background:#f0fdf4; border:1px solid #bbf7d0; color:#15803d; }
+.badge span { width: 7px; height: 7px; border-radius: 50%; }
 .badge.green span { background:#22c55e; }
-.badge.cyan  { background:#ecfeff; border:1px solid #a5f3fc; color:#0e7490; }
 .badge.cyan  span { background:#06b6d4; }
 
 /* Metrics row */
 .metrics-row { display:flex; gap:12px; margin-bottom:14px; flex-wrap:wrap; }
 .metric-card {
     flex:1; min-width:110px; background:white;
-    border:1px solid #e2e8f0; border-radius:12px;
-    padding:14px 16px; box-shadow:0 1px 3px rgba(0,0,0,.05);
+    border:1px solid #e6ebf3; border-radius:14px;
+    padding:14px 16px;
+    box-shadow:0 1px 2px rgba(15,23,42,.04), 0 4px 14px rgba(15,23,42,.045);
+    transition: transform .18s ease, box-shadow .18s ease;
+}
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow:0 2px 4px rgba(15,23,42,.05), 0 10px 26px rgba(15,23,42,.09);
 }
 .metric-card.hl {
     background: linear-gradient(135deg,#0e7490,#06b6d4);
     border-color: transparent;
+    box-shadow:0 6px 18px rgba(8,145,178,.28);
 }
 .metric-val  { font-size:20px; font-weight:700; color:#0f172a; letter-spacing:-.4px; line-height:1; margin-bottom:4px; }
 .metric-lbl  { font-size:10px; font-weight:600; color:#94a3b8; text-transform:uppercase; letter-spacing:.3px; }
@@ -223,21 +243,41 @@ section[data-testid="stSidebar"]       { display: none !important; }
 
 /* Control bar */
 .ctrl-bar {
-    background:white; border:1px solid #e2e8f0; border-radius:14px;
-    box-shadow:0 1px 4px rgba(0,0,0,.05); padding:14px 18px;
+    background:white; border:1px solid #e6ebf3; border-radius:16px;
+    box-shadow:0 1px 2px rgba(15,23,42,.04), 0 6px 20px rgba(15,23,42,.05); padding:14px 18px;
     display:flex; align-items:center; gap:14px; margin-bottom:14px; flex-wrap:wrap;
 }
 
 /* Section label */
 .slabel {
-    font-size:10px; font-weight:700; color:#94a3b8;
-    text-transform:uppercase; letter-spacing:.5px; margin-bottom:5px;
+    display:flex; align-items:center; gap:7px;
+    font-size:13px; font-weight:700; color:#0f172a; margin-bottom:3px;
 }
+.slabel::before {
+    content:""; width:7px; height:7px; border-radius:50%;
+    background:#06b6d4; flex-shrink:0;
+}
+.scap {
+    font-size:11.5px; font-weight:500; color:#94a3b8;
+    margin:0 0 8px 14px;
+}
+/* Khung ảnh */
+[data-testid="stImage"] {
+    background:#ffffff; border:1px solid #e6ebf3; border-radius:14px;
+    padding:8px; box-shadow:0 1px 2px rgba(15,23,42,.04), 0 4px 14px rgba(15,23,42,.05);
+}
+[data-testid="stImage"] img { border-radius:9px; display:block; }
 
 /* Card wrapper */
 .card {
-    background:white; border:1px solid #e2e8f0; border-radius:14px;
-    box-shadow:0 1px 4px rgba(0,0,0,.05); overflow:hidden; margin-bottom:14px;
+    background:white; border:1px solid #e6ebf3; border-radius:16px;
+    box-shadow:0 1px 2px rgba(15,23,42,.04), 0 6px 20px rgba(15,23,42,.05);
+    overflow:hidden; margin-bottom:14px;
+    transition: transform .18s ease, box-shadow .18s ease;
+}
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow:0 2px 4px rgba(15,23,42,.05), 0 12px 30px rgba(15,23,42,.09);
 }
 .card-head {
     padding:10px 16px; font-size:12px; font-weight:700;
@@ -252,6 +292,24 @@ section[data-testid="stSidebar"]       { display: none !important; }
 }
 .code-hd.pred { background:#0f172a; color:#7dd3fc; }
 .code-hd.gt   { background:#1e1b4b; color:#c4b5fd; }
+
+/* Prediction panel header (title trái + chips phải) */
+.pred-head {
+    display:flex; justify-content:space-between; align-items:center;
+    gap:12px; flex-wrap:wrap;
+    background:#ffffff; border:1px solid #e6ebf3; border-bottom:1px solid #eef2f7;
+    border-radius:14px 14px 0 0; padding:11px 16px; margin-top:6px;
+}
+.pred-title { display:flex; align-items:center; gap:9px; font-size:13px; font-weight:700; color:#0f172a; }
+.pred-ico {
+    font-family:'SFMono-Regular',Consolas,monospace; font-size:11px; font-weight:700;
+    background:#0f172a; color:#7dd3fc; padding:2px 7px; border-radius:6px;
+}
+.pred-chips { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+.pred-chips .meta-lbl { margin-right:-2px; }
+/* Nối liền khối JSON ngay dưới header */
+.stCode { border-radius:0 0 14px 14px !important; border:1px solid #e6ebf3 !important; border-top:none !important; }
+.stCode pre { margin:0 !important; }
 
 /* Chips */
 .chip { display:inline-block; padding:4px 12px; border-radius:999px; font-size:12px; font-weight:600; }
@@ -268,21 +326,42 @@ section[data-testid="stSidebar"]       { display: none !important; }
 [data-testid="stTextArea"] textarea {
     font-size: 12.5px !important;
     line-height: 1.65 !important;
-    border: none !important;
+    background: #ffffff !important;
+    border: 1px solid #e6ebf3 !important;
+    border-radius: 14px !important;
+    padding: 14px 16px !important;
+    box-shadow: 0 1px 2px rgba(15,23,42,.04), 0 4px 14px rgba(15,23,42,.05) !important;
 }
 .stButton > button {
     border-radius: 10px !important;
     font-weight: 600 !important;
     font-size: 13px !important;
+    transition: transform .15s ease, box-shadow .15s ease, filter .15s ease !important;
 }
+.stButton > button:hover { transform: translateY(-1px) !important; }
 .stButton > button[kind="primary"] {
     background: linear-gradient(135deg,#0891b2,#06b6d4) !important;
     border: none !important;
     box-shadow: 0 2px 8px rgba(6,182,212,.35) !important;
 }
+.stButton > button[kind="primary"]:hover {
+    filter: brightness(1.05) !important;
+    box-shadow: 0 4px 14px rgba(6,182,212,.45) !important;
+}
 ::-webkit-scrollbar       { width:6px; height:6px; }
 ::-webkit-scrollbar-thumb { background:#cbd5e1; border-radius:20px; }
+::-webkit-scrollbar-thumb:hover { background:#94a3b8; }
+
+/* Tabs — dạng chữ, gạch chân cyan */
 button[data-baseweb="tab"] svg { display: none !important; }
+button[data-baseweb="tab"] {
+    font-weight: 600 !important;
+    color: #64748b !important;
+    transition: color .15s ease !important;
+}
+button[data-baseweb="tab"]:hover { color: #0e7490 !important; }
+button[data-baseweb="tab"][aria-selected="true"] { color: #0891b2 !important; }
+[data-baseweb="tab-highlight"] { background: #06b6d4 !important; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -292,13 +371,10 @@ st.markdown("""
 <div class="topbar">
     <div class="brand">
         <div class="brand-line"></div>
-        <div class="brand-title">Invoice Extraction System</div>
-        <span class="model-tag">Qwen2-1.5B · LoRA</span>
-    </div>
-    <div class="badges">
-        <div class="badge green"><span></span>OCR Ready</div>
-        <div class="badge cyan"><span></span>JSON Pipeline</div>
-        <div class="badge green"><span></span>vLLM Connected</div>
+        <div>
+            <div class="brand-title">Invoice Extraction System</div>
+            <div class="brand-sub">Nhận dạng &amp; trích xuất thông tin hóa đơn tự động</div>
+        </div>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -367,19 +443,22 @@ with tab_main:
 
         col_img, col_ocr, col_txt = st.columns([3, 4, 3])
         with col_img:
-            st.markdown('<div class="slabel">Input Image</div>', unsafe_allow_html=True)
+            st.markdown('<div class="slabel">Ảnh gốc</div>'
+                        '<div class="scap">Hóa đơn đầu vào</div>', unsafe_allow_html=True)
             if image_path and os.path.exists(image_path):
                 st.image(image_path, use_container_width=True)
         with col_ocr:
-            st.markdown('<div class="slabel">OCR Detection</div>', unsafe_allow_html=True)
+            st.markdown('<div class="slabel">Phát hiện OCR</div>'
+                        '<div class="scap">Vùng chữ PaddleOCR nhận dạng</div>', unsafe_allow_html=True)
             if debug_path and os.path.exists(debug_path):
                 st.image(debug_path, use_container_width=True)
         with col_txt:
-            st.markdown('<div class="slabel">Raw OCR Stream</div>', unsafe_allow_html=True)
+            st.markdown('<div class="slabel">Văn bản OCR</div>'
+                        '<div class="scap">Chuỗi text trích được từ ảnh</div>', unsafe_allow_html=True)
             st.text_area("ocr", ocr_text, height=320, disabled=True, label_visibility="collapsed")
 
-        parse_chip = '<span class="chip chip-ok">✓ Parse OK</span>' if parse_ok else \
-                     '<span class="chip chip-fail">✗ Parse Fail</span>'
+        parse_chip = '<span class="chip chip-ok">✓ Hợp lệ</span>' if parse_ok else \
+                     '<span class="chip chip-fail">✗ Lỗi định dạng</span>'
 
         acc_row = INSTANCE_ACC[INSTANCE_ACC["invoice_no"] == index] if not INSTANCE_ACC.empty else pd.DataFrame()
         acc_val = acc_row["accuracy"].values[0] if not acc_row.empty else None
@@ -387,19 +466,22 @@ with tab_main:
         acc_chip  = f'<span class="chip" style="background:#f8fafc;border:1px solid #e2e8f0;color:{acc_color};font-weight:700;">{acc_val:.1f}%</span>' if acc_val is not None else ""
 
         st.markdown(f"""
-        <div class="meta-row">
-            <div class="meta-item"><span class="meta-lbl">Agent</span><span class="chip chip-agent">{agent}</span></div>
-            <div class="meta-item"><span class="meta-lbl">Status</span>{parse_chip}</div>
-            {"<div class='meta-item'><span class='meta-lbl'>Accuracy</span>" + acc_chip + "</div>" if acc_chip else ""}
+        <div class="pred-head">
+            <div class="pred-title"><span class="pred-ico">&lt;/&gt;</span> Kết quả trích xuất · JSON</div>
+            <div class="pred-chips">
+                <span class="chip chip-agent">{agent}</span>
+                {parse_chip}
+                {acc_chip}
+            </div>
         </div>
         """, unsafe_allow_html=True)
-        st.markdown('<div class="code-hd pred">&lt;&gt; Prediction</div>', unsafe_allow_html=True)
         st.code(prediction, language="json")
 
     else:
         col_img, col_ph = st.columns([3, 7])
         with col_img:
-            st.markdown('<div class="slabel">Input Image</div>', unsafe_allow_html=True)
+            st.markdown('<div class="slabel">Ảnh gốc</div>'
+                        '<div class="scap">Hóa đơn đầu vào</div>', unsafe_allow_html=True)
             image_path = normalize_path(item.get("image_path", ""))
             if image_path and os.path.exists(image_path):
                 st.image(image_path, use_container_width=True)
@@ -425,8 +507,8 @@ with tab_history:
         """, unsafe_allow_html=True)
     else:
         for h in reversed(st.session_state.history):
-            parse_chip = '<span class="chip chip-ok">✓ Parse OK</span>' if h["parse_ok"] else \
-                         '<span class="chip chip-fail">✗ Parse Fail</span>'
+            parse_chip = '<span class="chip chip-ok">✓ Hợp lệ</span>' if h["parse_ok"] else \
+                         '<span class="chip chip-fail">✗ Lỗi định dạng</span>'
             with st.expander(f"#{h['index']}  —  {h['image_name']}", expanded=False):
                 col_a, col_b = st.columns([2, 8])
                 with col_a:
