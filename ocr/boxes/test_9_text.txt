@@ -3,7 +3,7 @@ Bumbu Kaldu Ayam 1
 36000
 Sub Total
 36000
-Discount 0%
+Discount 0 %
 Tunai
 50000
 Kembalian

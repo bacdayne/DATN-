@@ -1,12 +1,13 @@
 1
 XLB Org Pork 10x
 78,000
+1
 Sicito Babi
 65,000
 1
 Hotplate Tahu
 58,000
-T
+1
 DF Fish Fillet Garlc
 108,000
 LM Pork Belly
@@ -17,7 +18,6 @@ Kwan Yin Cup
 50,000
 Herbal Jelly
 38,000
-1
 Onde-Onde
 38,000
 ITEMS:13

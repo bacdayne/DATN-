@@ -1,11 +1,12 @@
-40,000
-XXL Crspy Chicken
+40.000
+XXL Cnspy Chicken
+1
 0
 1
 -Sedang
 40.000
 ITEMS:1
-40.000
+40,000
 Tatal
-Change:60.000
-PayCash 100.000
+Change:60,000
+Pay Cash 100.000

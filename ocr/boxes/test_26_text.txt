@@ -1,24 +1,23 @@
 Cap Cay
-Nasi Cap Cay Porsi B
+Nas Cap Cay Porsi B
 esar
 65.000
 65.000
 1
 Minuman
 Teh Tawar
-.000
-4.000
-2
+C.000
+24.000
 Lain-lain
 Fu Yung Hai
 65.000
-5.000
-1
+65.000
+1n
 Rp138.000
 Subtotal
 Rp 138.000
 Total
-Rp 138.000
+Rp138.000
 Cash
-Rp0
+RpO
 Change

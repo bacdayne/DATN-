@@ -7,12 +7,15 @@ import cv2
 import numpy as np
 import argparse
 
+from pipeline.preprocess import preprocess_file
+
 
 def make_dirs():
     os.makedirs("ocr", exist_ok=True)
     os.makedirs("ocr/images", exist_ok=True)
     os.makedirs("ocr/boxes", exist_ok=True)
     os.makedirs("ocr/debug", exist_ok=True)
+    os.makedirs("ocr/preprocessed", exist_ok=True)
 
 
 def box_to_quad(box):
@@ -168,6 +171,12 @@ def main():
         action="store_true"
     )
 
+    parser.add_argument(
+        "--preprocess",
+        action="store_true",
+        help="Bat buoc tien xu ly anh (grayscale/deskew/denoise/CLAHE/upscale) truoc khi OCR"
+    )
+
     args = parser.parse_args()
 
     make_dirs()
@@ -212,9 +221,19 @@ def main():
             sample["ground_truth"]
         )
 
+        # Tien xu ly anh (tuy chon): giu anh goc de hien thi, OCR chay tren anh da xu ly
+        ocr_input_path = image_path
+        if args.preprocess:
+            ocr_input_path = os.path.join(
+                "ocr",
+                "preprocessed",
+                f"{args.split}_{idx}.png"
+            )
+            preprocess_file(image_path, ocr_input_path)
+
         ocr_result = run_paddleocr(
             ocr,
-            image_path,
+            ocr_input_path,
             debug=args.debug
         )
 

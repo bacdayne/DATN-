@@ -2,12 +2,12 @@
 Chicken Maryland
 30303.00
 Cappucino Hot/Iced)
-34632.0
+34632.00
 Naga Lychee Juice
 30303.00
 Cafe Latte
 30303.00
-Hot Chocolate Marshmallo
+Hot Chocolate Marshmal1o
 43290.00
 Chicken Cesar Salad
 12987.00
@@ -21,6 +21,6 @@ Chicken Mary land
 316017.00
 Subtotal
 48982.68
-Service Charge 5%+
+Service Charge 5%
 365000.00
 TOTAL

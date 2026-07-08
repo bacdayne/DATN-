@@ -1,5 +1,7 @@
-SER
-1001-Choc0 Bun
+sEiand
+TARHAEE
+ASALARS
+1001-Choco Bun
 22.000
 x1
 22.000
@@ -7,7 +9,7 @@ x1
 0
 x1
 0
-Total Item:
+otal Item:
 2
 otal.
 22.000

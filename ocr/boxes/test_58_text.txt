@@ -1,13 +1,14 @@
 55,000
-PHO BO TAT
+PHO BO TAI
 100,000
 CASH
 55,000
-Sub Totals
+Sub Total:
 5,500
 PPT
 60,500
-Totale
+Totalr
 100,000
 Paye
-Change Dues
+39500
+Change Due:

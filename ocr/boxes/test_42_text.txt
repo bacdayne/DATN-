@@ -1,13 +1,13 @@
 15.000
 Chicken HCC,1Pcs
 15,000
-Sut Total
+Sub Total
 1.500
-P.Rest 10%
+P.Rest 10
 16,500
 Total
 50,000
 Cash
 Kembali
 33,500
-1 Items,
+1Items

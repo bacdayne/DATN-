@@ -1,10 +1,9 @@
-************************
+***********************
 3 Nasi Putih
 30.000
 Nasi Tambah
 7.000
-2
-Ayam Pop
+2 Ayam Pop
 40.000
 1
 Samabal SP
@@ -22,6 +21,7 @@ Ikan Bawal Besa
 Telur Dadar
 10.000
 Teh Es
+7
 7.000
 1 Teh Manis
 9.000

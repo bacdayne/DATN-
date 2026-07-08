@@ -1,6 +1,6 @@
-TreadLEfe
-9,500
-i Chcezenania
+Sreadlsfe
+9500
+i Chcezemania
 12,500
 1 Mamamia
 22,000
@@ -11,5 +11,4 @@ DUE
 CASH
 30,000
 CHANGE
-2PCS
-TOTALQTY2ITEM
+TOTALQTY2ITEM2PCS

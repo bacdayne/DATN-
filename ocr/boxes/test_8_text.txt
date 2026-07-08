@@ -7,11 +7,11 @@
 45,455
 Sub Total
 4,545
-PB11G%
+PB110%
 0
 Rounding
 50,000
 Total
 50,000
 Card Payment
-K**
+kkk

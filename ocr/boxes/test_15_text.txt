@@ -1,10 +1,8 @@
 XXI
 cafe
-1
-Lemon Tea (L
+Lemon Tea (L)
 25.000
-1
-Caramel Smal1
+Caramel Sma11
 38.000
 63.000
 TOTAL

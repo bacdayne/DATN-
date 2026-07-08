@@ -1,16 +1,15 @@
 5001-Corn Flakes Cookies
 Rp.56.000
-1
+x1
 Rp.56.000
 5003-Chokoreto Cookies
 Rp.62.000
-Rp.62.000
-6002-Plastic Hag Medium
-N1
+.62.000
+6002-P1astic Rag Medium
 Rp.0
 Rp.0
-Total Iteme
 3
+Total Item
 Total.
 Rp.118.000
 118.000

@@ -1,10 +1,11 @@
 2005-CHEESE JOHN
-9.50000
+9.500,00
 x1
 9.50000
-Total Item
-9.50000
+1
+Total Item:
+9.500,00
 Total.
 Cash
-00.0006
+000006
 Tendered:

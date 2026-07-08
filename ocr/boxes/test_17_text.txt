@@ -1,11 +1,11 @@
 25,000
 Goblin's Mace
-38,000
 Mozarella Hot
 2
-Bod
+38,000
+Dog
 14,000
-Chili Pepper
+Chilli Pepper
 Croquette
 14,000
 Cheese
@@ -18,9 +18,8 @@ Take Away
 91,000
 Subtotal
 (0)
-Discount
 Rp.91,000
 TOTAL
 91,000
 Debit
-xxxxxxxxxxXX
+xxxxxxxxxxx

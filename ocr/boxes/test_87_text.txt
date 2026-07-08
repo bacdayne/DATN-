@@ -1,14 +1,17 @@
 VIETNA
-S
+LES
 36,500
-1 PHOTAICHN
-36500
-SobToral
-.Hd
-3,650
+A
+1 PHOTAICHIN
+36,500
+SubTotal
+PH
+059E
 P8110.0%
-10150
-GrandTote
 40,150
-ODLE
+GrandTotal:
+40,150
+3
+DL
 E
+m

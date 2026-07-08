@@ -1,3 +1,4 @@
+OT
 25.000
 1 Viet Milk Coffee
 +Ice
@@ -8,5 +9,4 @@ Subtotal
 Total
 25.000
 CASH
--0
 Kembalian
