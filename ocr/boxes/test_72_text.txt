@@ -1,14 +1,14 @@
 Darepes
 Darepes
 Choco Devil
+1
+15,90
 15,909
-SubTotal:
-15,909
-PBI:
+3
 1,591
 Total:
 17,500
 cash:
-20,000
+20000
 Change:
 2,500

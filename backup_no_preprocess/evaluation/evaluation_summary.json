@@ -1,0 +1,7 @@
+{
+  "num_invoices": 100,
+  "mean_instance_accuracy": 79.18889128182606,
+  "mean_field_precision": 0.7083623675902634,
+  "mean_field_recall": 0.7100585050922632,
+  "mean_field_f1": 0.7082177865993129
+}

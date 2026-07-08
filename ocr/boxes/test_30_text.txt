@@ -2,8 +2,9 @@
 Kupon 3
 Subtotal
 28636
-F81(10%)
-2,864
+PB1(10%)
+2864
+31,500
 Dine In Total
 50,000
 Cash

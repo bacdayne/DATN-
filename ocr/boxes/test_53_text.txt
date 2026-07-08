@@ -1,12 +1,10 @@
 Kopidegit
-********
 42.000
-1 Pecel Komplit + Nasi
+Pecel Komplit + Nasi
 47.000
-1
 SOTO KUDUS
 18.000
-2Mineral Water
+2MineralWater
 107.000
 Subtotal
 5.350

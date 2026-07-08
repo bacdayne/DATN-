@@ -1,10 +1,11 @@
-XXL Cnspy Chicken
+Por
+XXL Crispy Chicken
 40.000
 -Pedas sedikit
 0
 ITEMS:1
 40.000
 Tatal
-40.000
+40,000
 Pay Cash 50,000
 Change:10.000

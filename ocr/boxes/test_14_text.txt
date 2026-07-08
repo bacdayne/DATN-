@@ -1,26 +1,25 @@
-38000
 1 RedVelvet Cheese Slc
-Chicken Baked Rice
+38,000
 55,000
-1 Fish n Chis
-65000
+Chicken Baked Rice
+1 Fish n Chips
+65,000
+1
 Mushroom Soup
-35,000
 1 Chamomile
-25,000
 20000
-1 Iced Tes
+1 Iced Tea
 SUBTOTAL
 238,000
-Service
 17850
+Service
+25585
 PB1
-25,585
-281.435
+281,435
 TOTAL
 100,000
 Coupon
 200,000
 CASH
-18,565
-Change
+18565
+Charige

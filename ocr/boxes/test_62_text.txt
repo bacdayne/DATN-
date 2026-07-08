@@ -1,9 +1,10 @@
 XXI
 cafe
+1
 XXI Java Tea M)
 18.000
 1
-Combo 2
+Combo2
 30.000
 TOTAL
 48.000

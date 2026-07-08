@@ -1,6 +1,6 @@
 20.909
 1 COOKIES AND CREAM
-subtotal
+Subtotal
 20.909
 PAJAK10%
 2.091

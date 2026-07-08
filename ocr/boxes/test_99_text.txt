@@ -2,20 +2,20 @@
 68,180
 PAKET SLICES
 0
-FL Cake -French
+1
+FL Cake-French
 0
 Vanilla SLC
 PAKET SLICES
 0
 FL Cake-Green
 0
-TeaSLC
+Tea SLC
 1
 PAKET SLICES
-0
 1
-0
 FL Cake-Belgium
+0
 Choco SLC
 68,180
 SUBTOTAL
@@ -26,7 +26,7 @@ BIAYA TAMBAHAN
 6,818
 PAJAK PPN 10%
 0
-PAJAK 0%
+PAJAK0%
 0
 BIAYA CC
 2
