@@ -6,8 +6,17 @@ import ast
 import tempfile
 import numpy as np
 import pandas as pd
+import altair as alt
 from collections import Counter
 from PIL import Image
+
+# Bảng màu dùng chung cho toàn bộ biểu đồ (đồng bộ với biểu đồ PNG trong outputs/charts)
+C_PRECISION = "#0072B2"   # xanh dương
+C_RECALL    = "#E69F00"   # cam
+C_F1        = "#009E73"   # xanh lá
+C_ACCURACY  = "#2A4D69"   # xanh slate đậm
+C_PRIMARY   = "#2A6F97"   # màu chủ đạo
+C_HIGHLIGHT = "#E63946"   # đỏ nhấn
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from pipeline.agentic_prompts import classify_template_agent, get_prompt_by_agent, BASE_SCHEMA
@@ -261,6 +270,37 @@ section[data-testid="stSidebar"]       { display: none !important; }
     font-size:11.5px; font-weight:500; color:#94a3b8;
     margin:0 0 8px 14px;
 }
+
+/* Tiêu đề trang / tab */
+.page-title {
+    display:flex; align-items:center; gap:12px;
+    font-size:24px; font-weight:800; color:#0f172a;
+    letter-spacing:.2px; margin:2px 0 2px 0;
+}
+.page-title::before {
+    content:""; width:6px; height:28px; border-radius:4px;
+    background:linear-gradient(180deg,#2A6F97,#0072B2); flex-shrink:0;
+}
+.page-sub {
+    font-size:13px; font-weight:500; color:#94a3b8;
+    margin:0 0 4px 18px;
+}
+
+/* Tiêu đề biểu đồ */
+.chart-title {
+    display:flex; align-items:center; gap:10px;
+    font-size:15px; font-weight:700; color:#0f172a;
+    letter-spacing:.2px; margin:4px 0 12px 0;
+}
+.chart-title::before {
+    content:""; width:4px; height:18px; border-radius:3px;
+    background:linear-gradient(180deg,#2A6F97,#0072B2); flex-shrink:0;
+}
+.chart-title .ct-sub {
+    font-size:11.5px; font-weight:500; color:#94a3b8; letter-spacing:0;
+}
+/* Ẩn icon mỏ neo (anchor) cạnh tiêu đề markdown */
+[data-testid="stHeaderActionElements"] { display:none !important; }
 /* Khung ảnh */
 [data-testid="stImage"] {
     background:#ffffff; border:1px solid #e6ebf3; border-radius:14px;
@@ -646,7 +686,11 @@ with tab_history:
 
 # ── TAB 3: EVALUATION ─────────────────────────────────────────────────────────
 with tab_eval:
-    st.markdown("## Evaluation Dashboard")
+    st.markdown(
+        '<div class="page-title">Đánh giá mô hình</div>'
+        '<div class="page-sub">Kết quả trích xuất thông tin hóa đơn trên tập kiểm thử</div>',
+        unsafe_allow_html=True
+    )
 
     # ── 1. SUMMARY METRICS ───────────────────────────────────────────────────
     if SUMMARY:
@@ -672,43 +716,53 @@ with tab_eval:
             f"{SUMMARY.get('mean_field_f1', 0) * 100:.2f}%"
         )
 
-        st.markdown("<hr style='margin:12px 0 18px 0; border-color:#e2e8f0;'>", unsafe_allow_html=True)
+        st.markdown("<hr style='margin:12px 0 14px 0; border-color:#e2e8f0;'>", unsafe_allow_html=True)
 
-        # ── 2. SUMMARY BAR CHART ─────────────────────────────────────────────
-        st.markdown("### Biểu đồ tổng quan kết quả đánh giá")
+    # ── 2. HÀNG BIỂU ĐỒ 1: Tổng quan + Phân bố Agent ─────────────────────────
+    col_sum, col_agent = st.columns(2)
 
-        summary_chart = pd.DataFrame({
-            "Chỉ số": [
-                "Mean Accuracy",
-                "Mean Precision",
-                "Mean Recall",
-                "Mean F1-score"
-            ],
-            "Giá trị (%)": [
-                SUMMARY.get("mean_instance_accuracy", 0),
-                SUMMARY.get("mean_field_precision", 0) * 100,
-                SUMMARY.get("mean_field_recall", 0) * 100,
-                SUMMARY.get("mean_field_f1", 0) * 100,
-            ]
-        })
+    with col_sum:
+        st.markdown('<div class="chart-title">Tổng quan kết quả đánh giá</div>',
+                    unsafe_allow_html=True)
 
-        st.bar_chart(
-            summary_chart.set_index("Chỉ số"),
-            y="Giá trị (%)",
-            color="#06b6d4",
-            height=330
-        )
+        if SUMMARY:
+            order = ["Mean Accuracy", "Mean Precision", "Mean Recall", "Mean F1-score"]
+            summary_chart = pd.DataFrame({
+                "Chỉ số": order,
+                "Giá trị (%)": [
+                    SUMMARY.get("mean_instance_accuracy", 0),
+                    SUMMARY.get("mean_field_precision", 0) * 100,
+                    SUMMARY.get("mean_field_recall", 0) * 100,
+                    SUMMARY.get("mean_field_f1", 0) * 100,
+                ]
+            })
+            summary_chart["label"] = summary_chart["Giá trị (%)"].map(lambda v: f"{v:.1f}%")
 
-    else:
-        st.warning("Chưa có file evaluation_summary.json để hiển thị kết quả tổng quan.")
-
-    st.markdown("<hr style='margin:14px 0 18px 0; border-color:#e2e8f0;'>", unsafe_allow_html=True)
-
-    # ── 3. AGENT DISTRIBUTION + FIELD METRICS TABLE ──────────────────────────
-    col_agent, col_fm = st.columns([5, 5])
+            base = alt.Chart(summary_chart).encode(
+                x=alt.X("Chỉ số:N", sort=order,
+                        axis=alt.Axis(labelAngle=0, title=None, labelFontSize=10)),
+                y=alt.Y("Giá trị (%):Q", scale=alt.Scale(domain=[0, 108]),
+                        axis=alt.Axis(title=None)),
+            )
+            bars = base.mark_bar(size=40, cornerRadiusTopLeft=4, cornerRadiusTopRight=4).encode(
+                color=alt.Color("Chỉ số:N", sort=order, legend=None,
+                                scale=alt.Scale(domain=order,
+                                                range=[C_ACCURACY, C_PRECISION, C_RECALL, C_F1])),
+                tooltip=["Chỉ số", alt.Tooltip("Giá trị (%):Q", format=".2f")],
+            )
+            text = base.mark_text(dy=-7, fontSize=12, fontWeight="bold", color="#222").encode(
+                text="label:N"
+            )
+            st.altair_chart(
+                (bars + text).properties(height=250).configure_view(strokeWidth=0),
+                use_container_width=True
+            )
+        else:
+            st.warning("Chưa có file evaluation_summary.json.")
 
     with col_agent:
-        st.markdown("### Phân bố Agent")
+        st.markdown('<div class="chart-title">Phân bố Agent</div>',
+                    unsafe_allow_html=True)
 
         if PREDICTIONS:
             agent_counts = Counter(
@@ -720,58 +774,36 @@ with tab_eval:
                 list(agent_counts.items()),
                 columns=["Agent", "Số hóa đơn"]
             ).sort_values("Số hóa đơn", ascending=False)
+            df_agent["is_max"] = df_agent["Số hóa đơn"] == df_agent["Số hóa đơn"].max()
 
-            st.bar_chart(
-                df_agent.set_index("Agent"),
-                y="Số hóa đơn",
-                color="#22c55e",
-                height=320
+            agent_order = df_agent["Agent"].tolist()
+            base_a = alt.Chart(df_agent).encode(
+                y=alt.Y("Agent:N", sort=agent_order, axis=alt.Axis(title=None, labelFontSize=11)),
+                x=alt.X("Số hóa đơn:Q", axis=alt.Axis(title=None),
+                        scale=alt.Scale(domain=[0, df_agent["Số hóa đơn"].max() * 1.15])),
             )
-
-            st.dataframe(
-                df_agent,
-                use_container_width=True,
-                hide_index=True,
-                height=180
+            bars_a = base_a.mark_bar(cornerRadiusEnd=3, height=18).encode(
+                color=alt.Color("is_max:N", legend=None,
+                                scale=alt.Scale(domain=[True, False],
+                                                range=[C_HIGHLIGHT, C_PRIMARY])),
+                tooltip=["Agent", "Số hóa đơn"],
+            )
+            text_a = base_a.mark_text(align="left", dx=4, fontSize=11,
+                                      fontWeight="bold", color="#222").encode(
+                text="Số hóa đơn:Q"
+            )
+            st.altair_chart(
+                (bars_a + text_a).properties(height=250).configure_view(strokeWidth=0),
+                use_container_width=True
             )
         else:
             st.info("Chưa có dữ liệu prediction để thống kê Agent.")
 
-    with col_fm:
-        st.markdown("### Bảng Field Metrics")
+    st.markdown("<hr style='margin:14px 0 14px 0; border-color:#e2e8f0;'>", unsafe_allow_html=True)
 
-        if not FIELD_METRICS.empty:
-            df_show = FIELD_METRICS[["key", "precision", "recall", "f1_score", "accuracy"]].copy()
-
-            for col in ["precision", "recall", "f1_score", "accuracy"]:
-                if df_show[col].max() <= 1:
-                    df_show[col] = df_show[col] * 100
-
-            df_show[["precision", "recall", "f1_score", "accuracy"]] = (
-                df_show[["precision", "recall", "f1_score", "accuracy"]].round(2)
-            )
-
-            df_show.columns = [
-                "Field",
-                "Precision (%)",
-                "Recall (%)",
-                "F1-score (%)",
-                "Accuracy (%)"
-            ]
-
-            st.dataframe(
-                df_show,
-                use_container_width=True,
-                hide_index=True,
-                height=320
-            )
-        else:
-            st.info("Chưa có file field_metrics.csv.")
-
-    st.markdown("<hr style='margin:14px 0 18px 0; border-color:#e2e8f0;'>", unsafe_allow_html=True)
-
-    # ── 4. FIELD METRICS BAR CHART ───────────────────────────────────────────
-    st.markdown("### Biểu đồ Precision / Recall / F1-score theo từng Field")
+    # ── 3. HÀNG BIỂU ĐỒ 2: Field metrics (biểu đồ + bảng) ────────────────────
+    st.markdown('<div class="chart-title">Precision / Recall / F1-score theo từng Field</div>',
+                unsafe_allow_html=True)
 
     if not FIELD_METRICS.empty:
         df_field_chart = FIELD_METRICS[["key", "precision", "recall", "f1_score"]].copy()
@@ -789,17 +821,53 @@ with tab_eval:
             "f1_score": "F1-score"
         })
 
-        st.bar_chart(
-            df_field_chart.set_index("Field"),
-            height=430
+        field_order = (
+            df_field_chart.sort_values("F1-score", ascending=False)["Field"].tolist()
         )
+        long_fc = df_field_chart.melt(
+            id_vars="Field", var_name="Chỉ số", value_name="Giá trị"
+        )
+        metric_order = ["Precision", "Recall", "F1-score"]
+
+        base_f = alt.Chart(long_fc).encode(
+            y=alt.Y("Field:N", sort=field_order, axis=alt.Axis(title=None, labelFontSize=11)),
+            yOffset=alt.YOffset("Chỉ số:N", sort=metric_order),
+            x=alt.X("Giá trị:Q", scale=alt.Scale(domain=[0, 112]),
+                    axis=alt.Axis(title="Giá trị (%)")),
+        )
+        bars_f = base_f.mark_bar(height=9).encode(
+            color=alt.Color("Chỉ số:N", sort=metric_order,
+                            scale=alt.Scale(domain=metric_order,
+                                            range=[C_PRECISION, C_RECALL, C_F1]),
+                            legend=alt.Legend(title=None, orient="bottom")),
+            tooltip=["Field", "Chỉ số", alt.Tooltip("Giá trị:Q", format=".2f")],
+        )
+        text_f = base_f.mark_text(align="left", dx=2, fontSize=8, color="#333").encode(
+            text=alt.Text("Giá trị:Q", format=".1f")
+        )
+        field_chart = (bars_f + text_f).properties(height=400).configure_view(strokeWidth=0)
+
+        col_fchart, col_ftable = st.columns([6, 4])
+        with col_fchart:
+            st.altair_chart(field_chart, use_container_width=True)
+        with col_ftable:
+            df_show = FIELD_METRICS[["key", "precision", "recall", "f1_score", "accuracy"]].copy()
+            for col in ["precision", "recall", "f1_score", "accuracy"]:
+                if df_show[col].max() <= 1:
+                    df_show[col] = df_show[col] * 100
+            df_show[["precision", "recall", "f1_score", "accuracy"]] = (
+                df_show[["precision", "recall", "f1_score", "accuracy"]].round(2)
+            )
+            df_show.columns = ["Field", "P (%)", "R (%)", "F1 (%)", "Acc (%)"]
+            st.dataframe(df_show, use_container_width=True, hide_index=True, height=400)
     else:
         st.info("Chưa có dữ liệu Field Metrics để vẽ biểu đồ.")
 
     st.markdown("<hr style='margin:14px 0 18px 0; border-color:#e2e8f0;'>", unsafe_allow_html=True)
 
     # ── 5. ACCURACY DISTRIBUTION ─────────────────────────────────────────────
-    st.markdown("### Biểu đồ Accuracy theo từng hóa đơn")
+    st.markdown('<div class="chart-title">Accuracy theo từng hóa đơn</div>',
+                unsafe_allow_html=True)
 
     if not INSTANCE_ACC.empty:
         df_acc = INSTANCE_ACC.copy()
@@ -811,14 +879,19 @@ with tab_eval:
             acc_chart = pd.DataFrame({
                 "Hóa đơn": df_acc["invoice_no"].astype(str),
                 "Accuracy (%)": df_acc["accuracy"].round(2)
-            })
+            }).sort_values("Accuracy (%)", ascending=False)
 
-            st.bar_chart(
-                acc_chart.set_index("Hóa đơn"),
-                y="Accuracy (%)",
-                color="#6366f1",
-                height=360
-            )
+            acc_order = acc_chart["Hóa đơn"].tolist()
+            acc_bar = alt.Chart(acc_chart).mark_bar(color=C_PRIMARY).encode(
+                x=alt.X("Hóa đơn:N", sort=acc_order,
+                        axis=alt.Axis(title="Hóa đơn (sắp xếp giảm dần)",
+                                      labels=False, ticks=False)),
+                y=alt.Y("Accuracy (%):Q", scale=alt.Scale(domain=[0, 100]),
+                        axis=alt.Axis(title="Accuracy (%)")),
+                tooltip=["Hóa đơn", alt.Tooltip("Accuracy (%):Q", format=".2f")],
+            ).properties(height=240).configure_view(strokeWidth=0)
+
+            st.altair_chart(acc_bar, use_container_width=True)
         else:
             st.warning("File instance_accuracy.csv chưa có cột accuracy.")
     else:
@@ -828,7 +901,8 @@ with tab_eval:
 
     # ── 6. TOP 5 BEST / WORST ────────────────────────────────────────────────
     if not INSTANCE_ACC.empty and "accuracy" in INSTANCE_ACC.columns:
-        st.markdown("### Top hóa đơn theo Accuracy")
+        st.markdown('<div class="chart-title">Top hóa đơn theo Accuracy</div>',
+                    unsafe_allow_html=True)
 
         def render_top5(df_slice, label, color):
             st.markdown(f'<div class="slabel">{label}</div>', unsafe_allow_html=True)
@@ -882,7 +956,8 @@ with tab_eval:
     st.markdown("<hr style='margin:14px 0 18px 0; border-color:#e2e8f0;'>", unsafe_allow_html=True)
 
     # ── 7. GROUND TRUTH VS PREDICTION ────────────────────────────────────────
-    st.markdown("### Ground Truth vs Prediction — từng hóa đơn")
+    st.markdown('<div class="chart-title">Ground Truth vs Prediction — từng hóa đơn</div>',
+                unsafe_allow_html=True)
 
     for item in PREDICTIONS:
         i = item.get("image_index", 0)
